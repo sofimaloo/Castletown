@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2dae7375-fde3-92c0-3029-bff97655b2dd}</ProjectGuid>
+    <ProjectGuid>{dc545539-677b-0220-8c5f-37919df61d40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -326,34 +326,34 @@
         <HintPath>D:\Unity\Unity Editor\2021.3.28f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:\Unity\Unity Editor\2021.3.28f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -731,133 +731,133 @@
         <HintPath>D:\Unity\Unity Editor\2021.3.28f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\Unity\Projects\Castle Project v1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>D:\Unity\Projects\Castletown\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{ea6ff3a2-7a57-416b-e8cf-d7ae25d9e7fc}</Project>
+      <Project>{bab1b3b1-7d8d-4c2a-6c6b-44c819e80b8c}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Textus.SerializeReferenceUI.csproj">
-      <Project>{a5c7bdeb-889c-7ebf-dbaf-8ecd91008df7}</Project>
+      <Project>{e1ee8d5a-5b96-8832-c9ab-602208652e69}</Project>
       <Name>Textus.SerializeReferenceUI</Name>
     </ProjectReference>
     <ProjectReference Include="UMA_Examples_Editor.csproj">
-      <Project>{0041ad6c-ada6-7666-226a-43e5a4ceaa38}</Project>
+      <Project>{6bee504d-1ed3-1303-a8ac-096469fb98cd}</Project>
       <Name>UMA_Examples_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Shaderpackager-editor.csproj">
-      <Project>{f28f7388-fb06-253e-4d24-111ee3c7b8e5}</Project>
+      <Project>{234c2415-709a-c53e-5441-c410960d6b8a}</Project>
       <Name>Shaderpackager-editor</Name>
     </ProjectReference>
     <ProjectReference Include="UMA_Content.csproj">
-      <Project>{7cdd2bd0-1f9f-08ae-6061-1cb69494d420}</Project>
+      <Project>{a57ed202-390b-3154-454b-bfcff98c3990}</Project>
       <Name>UMA_Content</Name>
     </ProjectReference>
     <ProjectReference Include="UMA_Examples.csproj">
-      <Project>{59ee27af-c0c6-7ed0-b32d-feb9a7ab83b5}</Project>
+      <Project>{307641e3-0bf6-c171-2b3b-213da035bc44}</Project>
       <Name>UMA_Examples</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{1c654904-cc8b-2c2e-9f06-1e0c2b339da1}</Project>
+      <Project>{c41a5fc9-c009-419b-e7d8-9ea353175a03}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{6c2bde45-9b7c-232b-23e2-1265e2b4853c}</Project>
+      <Project>{dd7235f4-a5ad-4873-cfb6-32934fbca3c6}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="UMA_Core.csproj">
-      <Project>{c5ae670b-c53b-5613-2247-6d19cdfe202f}</Project>
+      <Project>{239c47dd-2a10-3877-a201-634bae162f7f}</Project>
       <Name>UMA_Core</Name>
     </ProjectReference>
     <ProjectReference Include="Addressable_Editor.csproj">
-      <Project>{4b5b8ef4-044c-d9a2-f6fa-3151ab3a89ad}</Project>
+      <Project>{82edafe8-bea0-4ff2-cd54-6eeb0c171ca3}</Project>
       <Name>Addressable_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UMA_Core_Editor.csproj">
-      <Project>{f8ead57f-982d-ef78-037f-1347d5375696}</Project>
+      <Project>{cba965ed-782e-33a5-c58a-3a83b3be092f}</Project>
       <Name>UMA_Core_Editor</Name>
     </ProjectReference>
   </ItemGroup>
