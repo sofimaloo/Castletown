@@ -131,6 +131,171 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: gameName
+      value: Castletown Project
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: newGameRace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: newGameClass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: newGameFaction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useCombatLog
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useSystemBar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: allowAutoAttack
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar6
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar7
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useMessageFeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: defaultPlayerName
+      value: Jane
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: newGameAppearance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: newGameSpecialization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useCombatLogDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useSystemBarDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: characterSelectionType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar1Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar2Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar3Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar4Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar5Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar6Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useActionBar7Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: UI.useMessageFeedDefault
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: defaultPlayerUnitProfile
+      value: Mecanim Human Female
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: powerResources.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: defaultUnitProfiles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: defaultUnitProfiles.Array.data[0]
+      value: Mecanim Human Male
+      objectReference: {fileID: 0}
     - target: {fileID: 7179402417075816385, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
       propertyPath: m_Name
