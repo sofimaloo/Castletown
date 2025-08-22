@@ -104,4 +104,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Games/NewGame/Scenes/NewScene/NewScene.unity
     guid: 7cd2044df6204d945b352a15bb53d32e
+  - enabled: 1
+    path: Assets/Games/Castle/Scenes/Spawn/Spawn.unity
+    guid: 680282282d6c7e642b07c1b04824340b
   m_configObjects: {}
