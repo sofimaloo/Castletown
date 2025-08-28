@@ -16,7 +16,7 @@ MonoBehaviour:
   displayName: 
   icon: {fileID: 21300000, guid: fff03fbc1edf8e44ba5a7f8bb9eff0dd, type: 3}
   iconBackgroundImage: {fileID: 0}
-  description: A mecanim human female
+  description: A human female character
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0

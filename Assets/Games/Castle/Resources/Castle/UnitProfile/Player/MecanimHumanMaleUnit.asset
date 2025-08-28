@@ -16,7 +16,7 @@ MonoBehaviour:
   displayName: 
   icon: {fileID: 21300000, guid: 4ce9927e29c4e67439b2afb877749f1b, type: 3}
   iconBackgroundImage: {fileID: 0}
-  description: A Mecanim human male
+  description: A human male character
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0
