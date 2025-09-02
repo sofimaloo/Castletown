@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85b0e4496d92ea14096c6be0ab10bf70, type: 3}
-  m_Name: GoldCurrencyGroup
+  m_Script: {fileID: 11500000, guid: 1e8493bf790139948a093ffd2829757c, type: 3}
+  m_Name: LegendaryPlateEquipmentSet
   m_EditorClassIdentifier: 
-  resourceName: Gold
+  resourceName: Legendary Plate
   displayName: 
   icon: {fileID: 0}
   iconBackgroundImage: {fileID: 0}
@@ -20,6 +20,18 @@ MonoBehaviour:
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0
-  baseCurrencyName: Gold
-  baseCurrency: {fileID: 11400000, guid: 4046afdd214398d418922d2f50fde47d, type: 2}
-  currencyGroupRates: []
+  equipmentNames:
+  - Legendary Plate Armor
+  - Legendary Plate Boots
+  - Legendary Plate Bracers
+  - Legendary Plate Girdle
+  - Legendary Plate Gloves
+  - Legendary Plate Helm
+  - Legendary Plate Legs
+  - Legendary Plate Pauldrons
+  traitNames:
+  - 
+  - Legendary Immunity
+  - 
+  - 
+  - Legendary Movement Speed

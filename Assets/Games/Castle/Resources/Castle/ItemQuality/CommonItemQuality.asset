@@ -20,6 +20,7 @@ MonoBehaviour:
   description: 
   useRegionalDescription: 0
   resourceDescriptionProfile: 
+  optionalOverride: 0
   statMultiplier: 1
   allowRandomItems: 1
   randomWeight: 16
@@ -27,7 +28,7 @@ MonoBehaviour:
   randomStatCount: 0
   dynamicItemLevel: 0
   buyPriceMultiplier: 1
-  sellPriceMultiplier: 0.5
+  sellPriceMultiplier: 1
   requireSellConfirmation: 0
   qualityColor: {r: 1, g: 1, b: 1, a: 1}
   tintBackgroundImage: 1

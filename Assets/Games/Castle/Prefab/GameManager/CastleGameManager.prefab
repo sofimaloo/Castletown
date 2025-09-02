@@ -74,8 +74,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
+      propertyPath: maxLevel
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: baseQuestXP
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
       propertyPath: gameVersion
       value: 0.1a
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: maxBankBags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
@@ -89,8 +104,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
+      propertyPath: questXPPerLevel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
       propertyPath: killCurrencyName
-      value: Silver
+      value: Gold
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: maxInventoryBags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
@@ -124,6 +149,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
+      propertyPath: vendorPriceMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
       propertyPath: characterSelectionType
       value: 2
       objectReference: {fileID: 0}
@@ -139,8 +169,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
+      propertyPath: questXPMultiplierLevelCap
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
       propertyPath: powerResources.Array.data[0]
       value: Health
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: defaultBankContents.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
@@ -156,6 +196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: capabilities.abilityNames.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: useQuestXPLevelMultiplierDemoninator
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}

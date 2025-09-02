@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: Crusadertank_prefabUnit
+  m_Name: VendorNPCUnit
   m_EditorClassIdentifier: 
-  resourceName: Crusader tank_prefab
+  resourceName: Vendor NPC
   displayName: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a3c38ed81ce647f4daf0a292002dc1de, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
@@ -26,25 +26,25 @@ MonoBehaviour:
   unitPrefabProps:
     unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
       type: 3}
-    modelPrefab: {fileID: 1949430161825482, guid: 9e066cea98814aa448c70270a3c60251,
+    modelPrefab: {fileID: 6307183516646880328, guid: 430920f3b4fc88943a9308441bd87563,
       type: 3}
     modelProvider:
       rid: -2
     animationProfileName: 
-    useInlineAnimationProps: 1
+    useInlineAnimationProps: 0
     animationProps:
-      useRootMotion: 1
+      useRootMotion: 0
       suppressAdjustAnimatorSpeed: 0
       attackClips: []
       castClips: []
       takeDamageClips: []
       actionClips: []
-      idleClip: {fileID: 7400000, guid: 66b114fb4a2e1454b9aa82a3b38c0686, type: 3}
-      jumpClip: {fileID: 7400000, guid: 19d3614e60b310e4a89d1e51c2e979ff, type: 3}
+      idleClip: {fileID: 0}
+      jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
-      walkClip: {fileID: 7400000, guid: fd9a48f8e8a12274fac6dce99d981f80, type: 3}
-      runClip: {fileID: 7400000, guid: cb040a5c1523d02479424a35d6d2a329, type: 3}
+      walkClip: {fileID: 0}
+      runClip: {fileID: 0}
       walkBackClip: {fileID: 0}
       runBackClip: {fileID: 0}
       turnLeftClip: {fileID: 0}
@@ -109,40 +109,40 @@ MonoBehaviour:
       combatJogStrafeBackRightClip: {fileID: 0}
       combatStunnedMirror: 0
       combatStunnedClip: {fileID: 0}
-      deathClip: {fileID: 7400000, guid: c9db4203785a7e243a40f72bb7601039, type: 3}
+      deathClip: {fileID: 0}
       reviveClip: {fileID: 0}
       levitatedClip: {fileID: 0}
       swimIdleClip: {fileID: 0}
       swimMoveClip: {fileID: 0}
       flyIdleClip: {fileID: 0}
       flyMoveClip: {fileID: 0}
-    rotateModel: 1
+    rotateModel: 0
     namePlateProps:
       displayName: 
       suppressNamePlate: 0
       suppressFaction: 1
-      overrideNameplatePosition: 1
-      namePlatePosition: {x: 0, y: 2.0725017, z: 0}
+      overrideNameplatePosition: 0
+      namePlatePosition: {x: 0, y: 0, z: 0}
       useSnapShot: 1
-      unitFrameTarget: Crusader_tank_Ctrl_HeadEffector
-      unitFrameCameraLookOffset: {x: 0, y: -0.3, z: 0}
+      unitFrameTarget: head
+      unitFrameCameraLookOffset: {x: 0, y: 0, z: 0}
       unitFrameCameraPositionOffset: {x: 0, y: 0, z: 0.66}
       unitPreviewTarget: 
-      unitPreviewCameraLookOffset: {x: 0, y: 0.9362508, z: 0}
-      unitPreviewCameraPositionOffset: {x: 0, y: 0.9362508, z: 2.340627}
+      unitPreviewCameraLookOffset: {x: 0, y: 1, z: 0}
+      unitPreviewCameraPositionOffset: {x: 0, y: 1, z: 2.5}
     position: {x: 0, y: 0, z: 0}
-    rotationIsGlobal: 1
+    rotationIsGlobal: 0
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
     targetBone: 
-    attachmentProfileName: 
+    attachmentProfileName: Humanoid
     floatHeight: 1.4
     addFloatHeightToTransform: 0
-    floatTransform: Crusader_tank_Ctrl_ChestEndEffector
+    floatTransform: Spine1
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Guard
+  characterName: Vendor
   title: 
   factionName: 
   unitTypeName: 
@@ -152,8 +152,8 @@ MonoBehaviour:
   spawnDead: 0
   preventAutoDespawn: 0
   defaultToughness: 
-  voiceProfile: 
-  useInlineVoiceProps: 1
+  voiceProfile: Male NPC
+  useInlineVoiceProps: 0
   voiceProps:
     aggro: []
     attack: []
@@ -184,9 +184,9 @@ MonoBehaviour:
   defaultHitEffects: []
   isMobile: 1
   footstepType: 3
-  playOnFootstep: 0
+  playOnFootstep: 1
   movementAudioProfileNames:
-  - Default Footstep Loop
+  - Default Footstep Hits
   useInlinePatrol: 0
   patrolConfig:
     autoStart: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
     useTags: 0
     destinationTagList: []
     randomDestinations: 0
-    loopDestinations: 0
+    loopDestinations: 1
     despawnOnCompletion: 0
     maxDestinations: 0
     maxDistanceFromSpawnPoint: 1
@@ -203,29 +203,26 @@ MonoBehaviour:
     savePositionAtDestination: 0
   patrolNames: []
   faceInteractionTarget: 1
-  interactionMaxRange: 4
+  interactionMaxRange: 3
   interactableOptions: []
   inlineInteractableOptions:
-  - rid: 8915054746412253208
+  - rid: 0
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: 25793635-f1fe-4469-8e0d-19522b199ca5
+  m_UUID: f02c1c67-4a33-40c6-a542-b269df316588
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 8915054746412253208
-      type: {class: QuestGiverProps, ns: AnyRPG, asm: Assembly-CSharp}
+    - rid: 0
+      type: {class: VendorProps, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         interactionPanelTitle: 
         interactionPanelImage: {fileID: 0}
         namePlateImage: {fileID: 0}
         prerequisiteConditions: []
-        quests:
-        - startQuest: 1
-          endQuest: 1
-          questName: Clothe thyself
-        questGiverProfileNames: []
+        vendorCollectionNames:
+        - Legendary Plate Armor
