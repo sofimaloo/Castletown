@@ -326,6 +326,7 @@
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\GameManager\UIManagers\OnScreenKeyboardManager.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Items\Bag.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\UI\Buttons\NewGameDetailsClassSpecializationButton.cs" />
+     <Compile Include="Assets\ithappy\Animals_FREE\Scripts\CreatureMover.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\UI\CloseableWindows\NewGameFactionPanelController.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Abilities\Effect\PetEffectConfig.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Interactables\LootableCharacter.cs" />
@@ -360,6 +361,7 @@
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\GameManager\ResourceProfiles\Faction.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\UI\Buttons\FactionButton.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Inventory\VendorItem.cs" />
+     <Compile Include="Assets\ithappy\Animals_FREE\Scripts\MovePlayerInput.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\GameManager\LevelManager.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\UI\Buttons\QuestTrackerQuestScript.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Abilities\Effect\AttackEffect.cs" />
@@ -427,6 +429,7 @@
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Interactables\InteractableOptionConfig.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Interactables\MoveableObjectProps.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\GameManager\ResourceProfiles\AppearanceEditorProfile.cs" />
+     <Compile Include="Assets\ithappy\Animals_FREE\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\UI\Buttons\NavigableInputField.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Quest\QuestNode.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\GameManager\ResourceProfiles\Currency.cs" />
@@ -466,6 +469,7 @@
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Helper\RotationFixer.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Interactables\CharacterCreatorConfig.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Interactables\UnitSpawnControllerConfig.cs" />
+     <Compile Include="Assets\ithappy\Animals_FREE\Scripts\PlayerCamera.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\UI\UINavigationController.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\Interactables\UnitSpawnControllerInteractable.cs" />
      <Compile Include="Assets\AnyRPG\Core\System\Scripts\UI\CloseableWindows\ExitToMainMenuController.cs" />
@@ -820,6 +824,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\UMA\InternalDataStore\InGame\Resources\Shader\Combiner.compute" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\ithappy\Animals_FREE\Render_Pipeline_Convert\Documentation.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
