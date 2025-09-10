@@ -28,6 +28,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8324317517816627321}
   m_Father: {fileID: 0}
@@ -59,6 +60,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backGroundImage: {fileID: 0}
+  captureCamera: 0
+  coloredUIElements: []
+  addToWindowStack: 1
+  userCloseable: 1
+  focusFirstButtonOnOpen: 1
+  focusCurrentButtonOnOpen: 0
+  focusActiveSubPanel: 0
+  uINavigationControllers: []
+  subPanels: []
+  hintBarController: {fileID: 0}
   graphicLayoutElement: {fileID: 1670371087685149445}
   mapRawImage: {fileID: 5062099781006031626}
   mainMapBackground: {fileID: 2399952160041757219}
@@ -93,6 +104,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2399952160041757219}
   m_RootOrder: 0
@@ -200,6 +212,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8213653150340313763}
   m_Father: {fileID: 8324317517816627321}
@@ -290,6 +303,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2399952160041757219}
   m_Father: {fileID: 5540552276615009493}

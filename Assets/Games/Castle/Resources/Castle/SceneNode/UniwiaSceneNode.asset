@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c036cb4fa6223f645af5f1c3dc4a06a1, type: 3}
-  m_Name: SpawnSceneNode
+  m_Name: UniwiaSceneNode
   m_EditorClassIdentifier: 
-  resourceName: Spawn
+  resourceName: Uniwia
   displayName: 
   icon: {fileID: 0}
   iconBackgroundImage: {fileID: 0}
@@ -21,7 +21,7 @@ MonoBehaviour:
   resourceDescriptionProfile: 
   optionalOverride: 0
   useRegionalFile: 0
-  sceneFile: Spawn
+  sceneFile: Uniwia
   dayAmbientSoundsProfile: 
   dayAmbientSoundsAudio: {fileID: 0}
   nightAmbientSoundsProfile: 

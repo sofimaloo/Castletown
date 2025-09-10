@@ -138,6 +138,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
+      propertyPath: gameVersion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
       propertyPath: newGameRace
       value: 0
       objectReference: {fileID: 0}
@@ -159,12 +164,17 @@ PrefabInstance:
     - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
       propertyPath: UI.useSystemBar
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
       propertyPath: allowAutoAttack
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: questXPPerLevel
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
@@ -218,6 +228,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
+      propertyPath: xpRequiredPerLevel
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
       propertyPath: newGameSpecialization
       value: 0
       objectReference: {fileID: 0}
@@ -229,7 +244,7 @@ PrefabInstance:
     - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
       propertyPath: UI.useSystemBarDefault
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}
@@ -295,6 +310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: defaultUnitProfiles.Array.data[0]
       value: Mecanim Human Male
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375070852738096961, guid: 85d56a1baa5ff4a4289fd0de07d62295,
+        type: 3}
+      propertyPath: capabilities.abilityNames.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7179402417075816385, guid: 85d56a1baa5ff4a4289fd0de07d62295,
         type: 3}

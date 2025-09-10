@@ -15,8 +15,8 @@ namespace AnyRPG {
         [SerializeField]
         private SystemPanelButton mainMenuButton = null;
 
-        [SerializeField]
-        private SystemPanelButton abilityBookButton = null;
+//        [SerializeField]
+//        private SystemPanelButton abilityBookButton = null;
 
         [SerializeField]
         private SystemPanelButton questLogButton = null;
@@ -27,11 +27,11 @@ namespace AnyRPG {
         [SerializeField]
         private SystemPanelButton mapButton = null;
 
-        [SerializeField]
-        private SystemPanelButton skillsButton = null;
+        //[SerializeField]
+//        private SystemPanelButton skillsButton = null;
 
-        [SerializeField]
-        private SystemPanelButton reputationsButton = null;
+        //[SerializeField]
+        //private SystemPanelButton reputationsButton = null;
 
         [SerializeField]
         private SystemPanelButton currenciesButton = null;
@@ -49,23 +49,23 @@ namespace AnyRPG {
             base.Configure(systemGameManager);
 
             mainMenuButton.Configure(systemGameManager);
-            abilityBookButton.Configure(systemGameManager);
+            //abilityBookButton.Configure(systemGameManager);
             questLogButton.Configure(systemGameManager);
             characterButton.Configure(systemGameManager);
             mapButton.Configure(systemGameManager);
-            skillsButton.Configure(systemGameManager);
-            reputationsButton.Configure(systemGameManager);
+            //skillsButton.Configure(systemGameManager);
+            //reputationsButton.Configure(systemGameManager);
             currenciesButton.Configure(systemGameManager);
             achievementsButton.Configure(systemGameManager);
             inventoryButton.Configure(systemGameManager);
 
             mainMenuButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
-            abilityBookButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
+            //abilityBookButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
             questLogButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
             characterButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
             mapButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
-            skillsButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
-            reputationsButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
+            //skillsButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
+            //reputationsButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
             currenciesButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
             achievementsButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
             inventoryButton.SetTooltipTransform(uIManager.BottomPanel.RectTransform);
@@ -74,9 +74,9 @@ namespace AnyRPG {
             if (systemConfigurationManager.UIConfiguration.SystemBarMainMenu != null) {
                 mainMenuButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarMainMenu;
             }
-            if (systemConfigurationManager.UIConfiguration.SystemBarAbilityBook != null) {
-                abilityBookButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarAbilityBook;
-            }
+            //if (systemConfigurationManager.UIConfiguration.SystemBarAbilityBook != null) {
+            //    abilityBookButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarAbilityBook;
+            //}
             if (systemConfigurationManager.UIConfiguration.SystemBarQuestLog != null) {
                 questLogButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarQuestLog;
             }
@@ -86,12 +86,12 @@ namespace AnyRPG {
             if (systemConfigurationManager.UIConfiguration.SystemBarMap != null) {
                 mapButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarMap;
             }
-            if (systemConfigurationManager.UIConfiguration.SystemBarSkills != null) {
-                skillsButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarSkills;
-            }
-            if (systemConfigurationManager.UIConfiguration.SystemBarReputations != null) {
-                reputationsButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarReputations;
-            }
+            //if (systemConfigurationManager.UIConfiguration.SystemBarSkills != null) {
+            //    skillsButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarSkills;
+            //}
+            //if (systemConfigurationManager.UIConfiguration.SystemBarReputations != null) {
+            //    reputationsButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarReputations;
+            //}
             if (systemConfigurationManager.UIConfiguration.SystemBarCurrencies != null) {
                 currenciesButton.Icon = systemConfigurationManager.UIConfiguration.SystemBarCurrencies;
             }

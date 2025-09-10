@@ -58,7 +58,7 @@ namespace AnyRPG {
         }
 
         public void OnPointerEnter(PointerEventData eventData) {
-            //uIManager.ShowToolTip(transform.position, this);
+            uIManager.ShowToolTip(transform.position, this);
             uIManager.ShowGamepadTooltip(tooltipTransform, transform, this, "");
         }
 
