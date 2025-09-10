@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: HumanMaleHeavyArmorUnitTemplate
+  m_Name: HumanMaleLightArmorUnit
   m_EditorClassIdentifier: 
-  resourceName: 
+  resourceName: Human Male Light Armor
   displayName: 
-  icon: {fileID: 21300000, guid: 7ef0ad7a9479f7041afaf88b46f9a9d8, type: 3}
+  icon: {fileID: 21300000, guid: aceeb8db2cf7a164b9ae030c6de00591, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
@@ -26,21 +26,18 @@ MonoBehaviour:
   unitPrefabProps:
     unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
       type: 3}
-    modelPrefab: {fileID: 6307183516646880328, guid: d000c5c25fdbc114696a5e9443f6ac45,
+    modelPrefab: {fileID: 6307183516646880328, guid: a08198b12b6a5504d81d0fb9bc96e49c,
       type: 3}
-    modelProvider:
-      rid: -2
     animationProfileName: 
-    useInlineAnimationProps: 1
+    useInlineAnimationProps: 0
     animationProps:
       useRootMotion: 0
       suppressAdjustAnimatorSpeed: 0
       attackClips: []
       castClips: []
       takeDamageClips: []
-      actionClips:
-      - {fileID: 0}
-      idleClip: {fileID: 7400000, guid: 66b114fb4a2e1454b9aa82a3b38c0686, type: 3}
+      actionClips: []
+      idleClip: {fileID: 0}
       jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
@@ -124,7 +121,6 @@ MonoBehaviour:
       suppressFaction: 1
       overrideNameplatePosition: 1
       namePlatePosition: {x: 0, y: 2.3, z: 0}
-      useSnapShot: 1
       unitFrameTarget: head
       unitFrameCameraLookOffset: {x: 0, y: 0, z: 0}
       unitFrameCameraPositionOffset: {x: 0, y: 0, z: 0.66}
@@ -140,10 +136,11 @@ MonoBehaviour:
     floatHeight: 0.3
     addFloatHeightToTransform: 0
     floatTransform: torso
+  isUMAUnit: 0
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Hubert
+  characterName: Human Male Light Armor
   title: 
   factionName: 
   unitTypeName: 
@@ -153,7 +150,7 @@ MonoBehaviour:
   spawnDead: 0
   preventAutoDespawn: 0
   defaultToughness: 
-  voiceProfile: Male Knight
+  voiceProfile: Male Wizard
   useInlineVoiceProps: 0
   voiceProps:
     aggro: []
@@ -174,15 +171,16 @@ MonoBehaviour:
     weaponSkills: []
     validPetTypes: []
     startingPets: []
-  primaryStats: []
-  powerResources: []
-  useProviderEquipment: 0
-  equipmentNameList: []
   isAggressive: 0
   aggroRadius: 0
   automaticCombatStrategy: 0
   combatStrategyName: 
   defaultHitEffects: []
+  primaryStats: []
+  powerResources: []
+  useProviderEquipment: 0
+  equipmentNameList: []
+  faceInteractionTarget: 1
   isMobile: 1
   footstepType: 3
   playOnFootstep: 1
@@ -197,25 +195,20 @@ MonoBehaviour:
     randomDestinations: 0
     loopDestinations: 1
     despawnOnCompletion: 0
-    maxDestinations: 4
-    maxDistanceFromSpawnPoint: 5
-    destinationPauseTime: 30
-    movementSpeed: 1
+    maxDestinations: 0
+    maxDistanceFromSpawnPoint: 1
+    destinationPauseTime: 0
+    movementSpeed: 0
     savePositionAtDestination: 0
   patrolNames: []
-  faceInteractionTarget: 1
   interactionMaxRange: 3
-  interactableOptions:
-  - 
-  inlineInteractableOptions:
-  - rid: -2
+  interactableOptions: []
+  inlineInteractableOptions: []
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: 1579b7ce-e83b-44a1-9cc8-53ec81f09055
+  m_UUID: 47158b34-0fea-4774-a099-d129c1d74808
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []

@@ -10,37 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: HumanMaleHeavyArmorUnitTemplate
+  m_Name: New Unit Profile
   m_EditorClassIdentifier: 
   resourceName: 
   displayName: 
-  icon: {fileID: 21300000, guid: 7ef0ad7a9479f7041afaf88b46f9a9d8, type: 3}
+  icon: {fileID: 0}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0
-  automaticPrefabProfile: 0
+  automaticPrefabProfile: 1
   prefabProfileName: 
-  useInlinePrefabProps: 1
+  useInlinePrefabProps: 0
   unitPrefabProps:
-    unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
-      type: 3}
-    modelPrefab: {fileID: 6307183516646880328, guid: d000c5c25fdbc114696a5e9443f6ac45,
-      type: 3}
+    unitPrefab: {fileID: 0}
+    modelPrefab: {fileID: 0}
     modelProvider:
       rid: -2
     animationProfileName: 
-    useInlineAnimationProps: 1
+    useInlineAnimationProps: 0
     animationProps:
       useRootMotion: 0
       suppressAdjustAnimatorSpeed: 0
       attackClips: []
       castClips: []
       takeDamageClips: []
-      actionClips:
-      - {fileID: 0}
-      idleClip: {fileID: 7400000, guid: 66b114fb4a2e1454b9aa82a3b38c0686, type: 3}
+      actionClips: []
+      idleClip: {fileID: 0}
       jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
@@ -122,28 +119,28 @@ MonoBehaviour:
       displayName: 
       suppressNamePlate: 0
       suppressFaction: 1
-      overrideNameplatePosition: 1
-      namePlatePosition: {x: 0, y: 2.3, z: 0}
+      overrideNameplatePosition: 0
+      namePlatePosition: {x: 0, y: 0, z: 0}
       useSnapShot: 1
-      unitFrameTarget: head
+      unitFrameTarget: 
       unitFrameCameraLookOffset: {x: 0, y: 0, z: 0}
       unitFrameCameraPositionOffset: {x: 0, y: 0, z: 0.66}
       unitPreviewTarget: 
-      unitPreviewCameraLookOffset: {x: 0, y: 1.2, z: 0}
-      unitPreviewCameraPositionOffset: {x: 0, y: 1.2, z: 2.8}
+      unitPreviewCameraLookOffset: {x: 0, y: 1, z: 0}
+      unitPreviewCameraPositionOffset: {x: 0, y: 1, z: 2.5}
     position: {x: 0, y: 0, z: 0}
     rotationIsGlobal: 0
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
     targetBone: 
-    attachmentProfileName: Humanoid
-    floatHeight: 0.3
+    attachmentProfileName: 
+    floatHeight: 1.4
     addFloatHeightToTransform: 0
-    floatTransform: torso
+    floatTransform: Spine1
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Hubert
+  characterName: 
   title: 
   factionName: 
   unitTypeName: 
@@ -153,7 +150,7 @@ MonoBehaviour:
   spawnDead: 0
   preventAutoDespawn: 0
   defaultToughness: 
-  voiceProfile: Male Knight
+  voiceProfile: 
   useInlineVoiceProps: 0
   voiceProps:
     aggro: []
@@ -178,16 +175,15 @@ MonoBehaviour:
   powerResources: []
   useProviderEquipment: 0
   equipmentNameList: []
-  isAggressive: 0
-  aggroRadius: 0
+  isAggressive: 1
+  aggroRadius: 20
   automaticCombatStrategy: 0
   combatStrategyName: 
   defaultHitEffects: []
   isMobile: 1
   footstepType: 3
-  playOnFootstep: 1
-  movementAudioProfileNames:
-  - Default Footstep Hits
+  playOnFootstep: 0
+  movementAudioProfileNames: []
   useInlinePatrol: 0
   patrolConfig:
     autoStart: 0
@@ -197,23 +193,21 @@ MonoBehaviour:
     randomDestinations: 0
     loopDestinations: 1
     despawnOnCompletion: 0
-    maxDestinations: 4
-    maxDistanceFromSpawnPoint: 5
-    destinationPauseTime: 30
-    movementSpeed: 1
+    maxDestinations: 0
+    maxDistanceFromSpawnPoint: 1
+    destinationPauseTime: 0
+    movementSpeed: 0
     savePositionAtDestination: 0
   patrolNames: []
   faceInteractionTarget: 1
   interactionMaxRange: 3
-  interactableOptions:
-  - 
-  inlineInteractableOptions:
-  - rid: -2
+  interactableOptions: []
+  inlineInteractableOptions: []
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: 1579b7ce-e83b-44a1-9cc8-53ec81f09055
+  m_UUID: 40dfe57f-e872-4bce-ba74-205f94a222dc
   references:
     version: 2
     RefIds:

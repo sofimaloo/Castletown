@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: Himbo Knight
+  m_EditorClassIdentifier: 
+  resourceName: Himbo Knight
+  displayName: Old tales
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 1
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: 'Good day my Lady! Art thou new to the area? '
+    audioClip: {fileID: 0}
+    nextOption: Yes ..
+  - startTime: 0
+    showTime: 0
+    description: Well then, why didn't you say so! Would you like to know more about
+      our pride and joy, Uniwia?
+    audioClip: {fileID: 8300000, guid: 2c776d2d2c14fc643bfeae297272df2f, type: 3}
+    nextOption: Yes please!
+  - startTime: 0
+    showTime: 0
+    description: 'This castle was first built by command of constable Bambis the
+      1st, in order to fortify his clan from the evil wizard who shall not be named..
+
+
+      The
+      evil wizard was defeated in the war of Antikeemenostrafees, though legend says
+      his spirit still lurks around the city, searching for new victims..'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: "Late at night, in the guise of a decripit fellow, he seeks the
+      inauspicious folk. \n\nAnd once he utters his riddles, I am afraid it is already
+      too late..\n\nIf the answer does not satisfy him, he executes his victim, right
+      there and then!\n"
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: '
+
+
+
+      And then, he disappears again, into the night..'
+    audioClip: {fileID: 8300000, guid: 68d33a33fc008d44ea3ebcafcb8f35b9, type: 3}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: "Anyhow, do not worry about it, its just what old folk say to scare
+      unruly children. \n\nIt is just a tale, nothing more to it...\n\n\n\n...i think"
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: "God be with ye! \n"
+    audioClip: {fileID: 0}
+    nextOption: 
+  prerequisiteConditions: []

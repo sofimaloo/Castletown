@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: HumanMaleHeavyArmorUnitTemplate
+  m_Name: HumanMaleHeavyArmorUnit
   m_EditorClassIdentifier: 
-  resourceName: 
-  displayName: 
+  resourceName: Hubert
+  displayName: Hubert
   icon: {fileID: 21300000, guid: 7ef0ad7a9479f7041afaf88b46f9a9d8, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
@@ -33,20 +33,19 @@ MonoBehaviour:
     animationProfileName: 
     useInlineAnimationProps: 1
     animationProps:
-      useRootMotion: 0
+      useRootMotion: 1
       suppressAdjustAnimatorSpeed: 0
       attackClips: []
       castClips: []
       takeDamageClips: []
-      actionClips:
-      - {fileID: 0}
-      idleClip: {fileID: 7400000, guid: 66b114fb4a2e1454b9aa82a3b38c0686, type: 3}
+      actionClips: []
+      idleClip: {fileID: 7400014, guid: ce448a8080b4e934b8473badd27be402, type: 3}
       jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
-      walkClip: {fileID: 0}
+      walkClip: {fileID: 7400000, guid: 450ad86e85ecd344f8b69b74a241724d, type: 2}
       runClip: {fileID: 0}
-      walkBackClip: {fileID: 0}
+      walkBackClip: {fileID: 7400000, guid: 9a123cb3e407682488f0caa8de832f34, type: 2}
       runBackClip: {fileID: 0}
       turnLeftClip: {fileID: 0}
       turnRightClip: {fileID: 0}
@@ -188,27 +187,26 @@ MonoBehaviour:
   playOnFootstep: 1
   movementAudioProfileNames:
   - Default Footstep Hits
-  useInlinePatrol: 0
+  useInlinePatrol: 1
   patrolConfig:
-    autoStart: 0
+    autoStart: 1
     destinationList: []
-    useTags: 0
+    useTags: 1
     destinationTagList: []
-    randomDestinations: 0
-    loopDestinations: 1
+    randomDestinations: 1
+    loopDestinations: 0
     despawnOnCompletion: 0
-    maxDestinations: 4
+    maxDestinations: 5
     maxDistanceFromSpawnPoint: 5
-    destinationPauseTime: 30
+    destinationPauseTime: 15
     movementSpeed: 1
     savePositionAtDestination: 0
   patrolNames: []
   faceInteractionTarget: 1
   interactionMaxRange: 3
-  interactableOptions:
-  - 
+  interactableOptions: []
   inlineInteractableOptions:
-  - rid: -2
+  - rid: 8187699398984335360
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
@@ -219,3 +217,12 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 8187699398984335360
+      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: hihi
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        dialogNames:
+        - Himbo Knight
