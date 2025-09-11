@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: Clothe thyself II
+  m_EditorClassIdentifier: 
+  resourceName: Clothe thyself II
+  displayName: Clothe thyself II
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 0
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: 'Well, well, another broke traveller.
+
+
+      Go away, we''re out
+      of stock-'
+    audioClip: {fileID: 0}
+    nextOption: But that guard told me-
+  - startTime: 0
+    showTime: 0
+    description: 'SIGURD SENT YOU?!
+
+      Why didn''t you say so?! Welcome, welcome,
+      paying customer!
+
+
+      And how much did he give you?'
+    audioClip: {fileID: 0}
+    nextOption: Uh... 10 coins?
+  - startTime: 0
+    showTime: 0
+    description: 'That cheapskate! That''s barely enough for my worst
+
+
+      -*AHEM*-
+
+
+      my
+      most affordable armor!'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'Oh well, 10 coins is 10 coins.
+
+
+      The leather armor is right
+      within your price range!'
+    audioClip: {fileID: 0}
+    nextOption: 
+  prerequisiteConditions: []

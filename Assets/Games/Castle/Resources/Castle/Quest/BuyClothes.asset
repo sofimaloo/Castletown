@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b491a306145b8e4aa064bbcf71f8e01, type: 3}
+  m_Name: BuyClothes
+  m_EditorClassIdentifier: 
+  resourceName: Clothe thyself II
+  displayName: Clothe thyself II
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  steps:
+  - questObjectives:
+    - rid: 8915054940305752064
+    - rid: 8915054940305752089
+    - rid: 8915054940305752090
+    - rid: 8915054940305752096
+    - rid: 8915054940305752092
+    - rid: 8915054940305752093
+    - rid: 8915054940305752095
+    - rid: 8915054940305752110
+  - questObjectives:
+    - rid: 8915054940305752111
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Clothe thyself
+      stepIndex: 0
+      requireComplete: 1
+      requireTurnedIn: 1
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []
+  repeatableQuest: 0
+  hasOpeningDialog: 1
+  experienceLevel: 0
+  dynamicLevel: 0
+  extraLevels: 0
+  baseExperienceReward: 0
+  experienceRewardPerLevel: 0
+  automaticCurrencyReward: 0
+  rewardCurrencyName: Gold
+  baseCurrencyReward: 10
+  currencyRewardPerLevel: 0
+  maxItemRewards: 0
+  itemRewardNames: []
+  maxFactionRewards: 0
+  factionRewards: []
+  maxAbilityRewards: 0
+  abilityRewardNames: []
+  maxSkillRewards: 0
+  skillRewardNames: []
+  turnInItems: 0
+  allowRawComplete: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8915054940305752064
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Armor
+        partialMatch: 0
+    - rid: 8915054940305752089
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Belt
+        partialMatch: 0
+    - rid: 8915054940305752090
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Bracers
+        partialMatch: 0
+    - rid: 8915054940305752092
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Gloves
+        partialMatch: 0
+    - rid: 8915054940305752093
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Headband
+        partialMatch: 0
+    - rid: 8915054940305752095
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Pants
+        partialMatch: 0
+    - rid: 8915054940305752096
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Bracers
+        partialMatch: 0
+    - rid: 8915054940305752110
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Brown Leather Shoulders
+        partialMatch: 0
+    - rid: 8915054940305752111
+      type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: Get instructions from Vander
+        dialogName: How to equip items

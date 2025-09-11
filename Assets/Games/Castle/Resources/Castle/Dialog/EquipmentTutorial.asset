@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: EquipmentTutorial
+  m_EditorClassIdentifier: 
+  resourceName: How to equip items
+  displayName: How to equip items
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 1
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: 'Now, you''ve bought your first items. Congrats!
+
+
+      We wouldn''t
+      want you to damage them and blame me for selling faulty merchandise. So here
+      is how to properly use them.'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'Do you see those buttons above your XP bar?
+
+
+      Click the inventory
+      button and you''ll see everything you''ve bought.'
+    audioClip: {fileID: 0}
+    nextOption: YOU CAN SEE MY XP BAR TOO?
+  - startTime: 0
+    showTime: 0
+    description: 'Yes. Anyway.
+
+
+      Right click items to equip them.
+
+      You
+      can also click the character button, and drag your items there.
+
+      That
+      will also show you your stats.'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'That''s about it.
+
+
+      Return soon for more good deals!'
+    audioClip: {fileID: 0}
+    nextOption: 
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Clothe thyself II
+      stepIndex: 1
+      requireComplete: 0
+      requireTurnedIn: 0
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []

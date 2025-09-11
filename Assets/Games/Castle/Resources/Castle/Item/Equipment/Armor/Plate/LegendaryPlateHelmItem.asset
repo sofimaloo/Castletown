@@ -27,12 +27,12 @@ MonoBehaviour:
   freezeDropLevel: 0
   levelCap: 10
   itemLevel: 10
-  useLevel: 0
+  useLevel: 10
   currencyName: Gold
   dynamicCurrencyAmount: 0
   pricePerLevel: 0
-  basePrice: 0
-  uniqueItem: 0
+  basePrice: 5
+  uniqueItem: 1
   characterClassRequirementList: []
   equipmentSlotType: Helm
   equipmentSetName: Legendary Plate

@@ -31,8 +31,8 @@ MonoBehaviour:
   currencyName: Gold
   dynamicCurrencyAmount: 0
   pricePerLevel: 0
-  basePrice: 1
-  uniqueItem: 0
+  basePrice: 5
+  uniqueItem: 1
   characterClassRequirementList: []
   equipmentSlotType: Armor
   equipmentSetName: Legendary Plate

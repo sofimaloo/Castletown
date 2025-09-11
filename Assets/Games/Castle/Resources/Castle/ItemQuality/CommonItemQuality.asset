@@ -29,6 +29,6 @@ MonoBehaviour:
   dynamicItemLevel: 0
   buyPriceMultiplier: 1
   sellPriceMultiplier: 1
-  requireSellConfirmation: 0
+  requireSellConfirmation: 1
   qualityColor: {r: 1, g: 1, b: 1, a: 1}
   tintBackgroundImage: 1

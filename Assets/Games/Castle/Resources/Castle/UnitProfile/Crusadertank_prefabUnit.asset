@@ -142,7 +142,7 @@ MonoBehaviour:
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Guard
+  characterName: Sigurd
   title: 
   factionName: 
   unitTypeName: 

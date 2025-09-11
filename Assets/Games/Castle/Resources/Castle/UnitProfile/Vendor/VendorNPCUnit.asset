@@ -142,7 +142,7 @@ MonoBehaviour:
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Vendor
+  characterName: Vander
   title: 
   factionName: 
   unitTypeName: 
@@ -208,6 +208,8 @@ MonoBehaviour:
   inlineInteractableOptions:
   - rid: 0
   - rid: 8915054763790565376
+  - rid: 8915054940305752097
+  - rid: 8915054940305752124
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
@@ -240,7 +242,7 @@ MonoBehaviour:
           abilityPrerequisites: []
           factionPrerequisites: []
         vendorCollectionNames:
-        - Legendary Plate Armor
+        - Buy Armor
     - rid: 8915054763790565376
       type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
       data:
@@ -250,3 +252,24 @@ MonoBehaviour:
         prerequisiteConditions: []
         dialogNames:
         - Precious deals
+    - rid: 8915054940305752097
+      type: {class: QuestGiverProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        quests:
+        - startQuest: 1
+          endQuest: 1
+          questName: Clothe thyself II
+        questGiverProfileNames: []
+    - rid: 8915054940305752124
+      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        dialogNames:
+        - How to equip items
