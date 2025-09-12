@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: HumanFemaleClothesHead3UnitTemplate
+  m_Name: Hubert
   m_EditorClassIdentifier: 
-  resourceName: Darleene
-  displayName: Darleene
-  icon: {fileID: 21300000, guid: d9e8c98d04dbfed4cb2258c177294ae8, type: 3}
+  resourceName: Hubert
+  displayName: Hubert
+  icon: {fileID: 21300000, guid: 7ef0ad7a9479f7041afaf88b46f9a9d8, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
@@ -26,26 +26,26 @@ MonoBehaviour:
   unitPrefabProps:
     unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
       type: 3}
-    modelPrefab: {fileID: 6954704190252621995, guid: b50f0a866945a66428c3794bd6eba9b0,
+    modelPrefab: {fileID: 6307183516646880328, guid: d000c5c25fdbc114696a5e9443f6ac45,
       type: 3}
     modelProvider:
       rid: -2
     animationProfileName: 
-    useInlineAnimationProps: 0
+    useInlineAnimationProps: 1
     animationProps:
-      useRootMotion: 0
+      useRootMotion: 1
       suppressAdjustAnimatorSpeed: 0
       attackClips: []
       castClips: []
       takeDamageClips: []
       actionClips: []
-      idleClip: {fileID: 0}
+      idleClip: {fileID: 7400014, guid: ce448a8080b4e934b8473badd27be402, type: 3}
       jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
-      walkClip: {fileID: 0}
+      walkClip: {fileID: 7400000, guid: 450ad86e85ecd344f8b69b74a241724d, type: 2}
       runClip: {fileID: 0}
-      walkBackClip: {fileID: 0}
+      walkBackClip: {fileID: 7400000, guid: 9a123cb3e407682488f0caa8de832f34, type: 2}
       runBackClip: {fileID: 0}
       turnLeftClip: {fileID: 0}
       turnRightClip: {fileID: 0}
@@ -142,7 +142,7 @@ MonoBehaviour:
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Darleene
+  characterName: Hubert
   title: 
   factionName: 
   unitTypeName: 
@@ -152,7 +152,7 @@ MonoBehaviour:
   spawnDead: 0
   preventAutoDespawn: 0
   defaultToughness: 
-  voiceProfile: Female Low
+  voiceProfile: Male Knight
   useInlineVoiceProps: 0
   voiceProps:
     aggro: []
@@ -187,32 +187,55 @@ MonoBehaviour:
   playOnFootstep: 1
   movementAudioProfileNames:
   - Default Footstep Hits
-  useInlinePatrol: 0
+  useInlinePatrol: 1
   patrolConfig:
-    autoStart: 0
+    autoStart: 1
     destinationList: []
-    useTags: 0
+    useTags: 1
     destinationTagList: []
-    randomDestinations: 0
-    loopDestinations: 1
+    randomDestinations: 1
+    loopDestinations: 0
     despawnOnCompletion: 0
-    maxDestinations: 0
-    maxDistanceFromSpawnPoint: 1
-    destinationPauseTime: 0
-    movementSpeed: 0
+    maxDestinations: 5
+    maxDistanceFromSpawnPoint: 5
+    destinationPauseTime: 15
+    movementSpeed: 1
     savePositionAtDestination: 0
   patrolNames: []
   faceInteractionTarget: 1
   interactionMaxRange: 3
   interactableOptions: []
-  inlineInteractableOptions: []
+  inlineInteractableOptions:
+  - rid: 8187699398984335360
+  - rid: 8187699421880516613
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: 97d4fd4a-e391-4258-95cd-42ec1cf4f064
+  m_UUID: 1579b7ce-e83b-44a1-9cc8-53ec81f09055
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 8187699398984335360
+      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: hihi
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        dialogNames:
+        - Himbo Knight
+    - rid: 8187699421880516613
+      type: {class: QuestGiverProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: Tales I
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        quests:
+        - startQuest: 0
+          endQuest: 1
+          questName: Tales I
+        questGiverProfileNames: []

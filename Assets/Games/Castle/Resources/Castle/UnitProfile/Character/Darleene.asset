@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: HumanFemaleClothesHead3UnitTemplate
+  m_Name: Darleene
   m_EditorClassIdentifier: 
   resourceName: Darleene
   displayName: Darleene
-  icon: {fileID: 21300000, guid: d9e8c98d04dbfed4cb2258c177294ae8, type: 3}
+  icon: {fileID: 21300000, guid: 531d2755ec573784ea3846d23fc6cf28, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   unitPrefabProps:
     unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
       type: 3}
-    modelPrefab: {fileID: 6954704190252621995, guid: b50f0a866945a66428c3794bd6eba9b0,
+    modelPrefab: {fileID: 6954704190252621995, guid: a431012de3daa394eb6b0dfa60d9d749,
       type: 3}
     modelProvider:
       rid: -2
@@ -205,14 +205,24 @@ MonoBehaviour:
   faceInteractionTarget: 1
   interactionMaxRange: 3
   interactableOptions: []
-  inlineInteractableOptions: []
+  inlineInteractableOptions:
+  - rid: 8187699436567396352
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: 97d4fd4a-e391-4258-95cd-42ec1cf4f064
+  m_UUID: 6207382c-7774-4e35-bac3-24fb103aac80
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 8187699436567396352
+      type: {class: QuestGiverProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        quests: []
+        questGiverProfileNames: []

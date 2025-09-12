@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: New Dialog
+  m_EditorClassIdentifier: 
+  resourceName: Marital problems
+  displayName: 
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 0
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: 'oh... pardon me, I didnt notice you there...
+
+'
+    audioClip: {fileID: 0}
+    nextOption: Are you alright?
+  - startTime: 0
+    showTime: 0
+    description: "I was to be wed today, \nbut alas, \nmy betrothed was nowhere to
+      be seen..\n"
+    audioClip: {fileID: 0}
+    nextOption: ...
+  - startTime: 0
+    showTime: 0
+    description: "He thinks highly of me, too highly...\r\n\nI do not care about
+      what others think! \r\n\nI am in love with him! \r\n\n"
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: "I will never love another man as I have him! \n\r\nI'd rather die
+      an old spinster than betrothe another! \n\r\nHe must know! \nHe must know that...\r\n\n\n"
+    audioClip: {fileID: 0}
+    nextOption: Why not tell him?
+  - startTime: 0
+    showTime: 0
+    description: "I must remind him... \nbut he's been avoiding me like the plague..\n\nPlease!
+      \nI beg of you! \nDeliver him this letter for me! \n\n\n"
+    audioClip: {fileID: 0}
+    nextOption: Me?
+  - startTime: 0
+    showTime: 0
+    description: "He would never suspect it coming from a foreigner, \nhe won't run
+      away.\r\n\r\n\r\nOnly after seeing it in writing, \nwill he be certain of my
+      affection for him!\r\n\r\nYou're my only hope!\n\n\n"
+    audioClip: {fileID: 0}
+    nextOption: 
+  prerequisiteConditions: []

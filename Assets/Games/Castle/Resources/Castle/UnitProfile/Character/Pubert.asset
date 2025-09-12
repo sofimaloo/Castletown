@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: HumanFemaleClothesHead3UnitTemplate
+  m_Name: Pubert
   m_EditorClassIdentifier: 
-  resourceName: Darleene
-  displayName: Darleene
-  icon: {fileID: 21300000, guid: d9e8c98d04dbfed4cb2258c177294ae8, type: 3}
+  resourceName: Pubert
+  displayName: Pubert
+  icon: {fileID: 21300000, guid: 995e8a165572da84ca469d4e64b98c43, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   unitPrefabProps:
     unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
       type: 3}
-    modelPrefab: {fileID: 6954704190252621995, guid: b50f0a866945a66428c3794bd6eba9b0,
+    modelPrefab: {fileID: 6307183516646880328, guid: 06fc2eae87c436f4b9cbdab3cb5dc5e5,
       type: 3}
     modelProvider:
       rid: -2
@@ -39,7 +39,8 @@ MonoBehaviour:
       castClips: []
       takeDamageClips: []
       actionClips: []
-      idleClip: {fileID: 0}
+      idleClip: {fileID: 8395340075712130349, guid: 6397dc4217362a642821d38659e201d8,
+        type: 3}
       jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
@@ -142,7 +143,7 @@ MonoBehaviour:
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Darleene
+  characterName: Pubert
   title: 
   factionName: 
   unitTypeName: 
@@ -152,7 +153,7 @@ MonoBehaviour:
   spawnDead: 0
   preventAutoDespawn: 0
   defaultToughness: 
-  voiceProfile: Female Low
+  voiceProfile: Male NPC
   useInlineVoiceProps: 0
   voiceProps:
     aggro: []
@@ -205,14 +206,37 @@ MonoBehaviour:
   faceInteractionTarget: 1
   interactionMaxRange: 3
   interactableOptions: []
-  inlineInteractableOptions: []
+  inlineInteractableOptions:
+  - rid: 8187699419854667781
+  - rid: 8187699421880516609
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: 97d4fd4a-e391-4258-95cd-42ec1cf4f064
+  m_UUID: c23e2e42-03f5-4e08-84c2-9abbd2cd5d19
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 8187699419854667781
+      type: {class: QuestGiverProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: Brotherly  Affairs
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        quests:
+        - startQuest: 1
+          endQuest: 0
+          questName: Tales I
+        questGiverProfileNames: []
+    - rid: 8187699421880516609
+      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: Prepaprations
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        dialogNames:
+        - Pubert Yap
