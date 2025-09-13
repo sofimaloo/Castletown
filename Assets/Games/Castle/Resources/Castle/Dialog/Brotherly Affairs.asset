@@ -37,4 +37,18 @@ MonoBehaviour:
       Thanks for the talk..'
     audioClip: {fileID: 0}
     nextOption: Anytime
-  prerequisiteConditions: []
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Tales I
+      stepIndex: 1
+      requireComplete: 0
+      requireTurnedIn: 0
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []

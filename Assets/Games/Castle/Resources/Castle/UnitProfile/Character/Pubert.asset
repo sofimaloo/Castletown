@@ -207,8 +207,9 @@ MonoBehaviour:
   interactionMaxRange: 3
   interactableOptions: []
   inlineInteractableOptions:
-  - rid: 8187699419854667781
   - rid: 8187699421880516609
+  - rid: 8187699419854667781
+  - rid: 8915054975426756621
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
@@ -228,7 +229,7 @@ MonoBehaviour:
         prerequisiteConditions: []
         quests:
         - startQuest: 1
-          endQuest: 0
+          endQuest: 1
           questName: Tales I
         questGiverProfileNames: []
     - rid: 8187699421880516609
@@ -240,3 +241,12 @@ MonoBehaviour:
         prerequisiteConditions: []
         dialogNames:
         - Pubert Yap
+    - rid: 8915054975426756621
+      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        dialogNames:
+        - 'Brothers '

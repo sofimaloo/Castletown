@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: Henry's yearning
+  m_EditorClassIdentifier: 
+  resourceName: About Darlene
+  displayName: About Darlene
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 0
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: 'Hello, traveller...
+
+
+      Have you, by any chance, seen my Darlene? '
+    audioClip: {fileID: 0}
+    nextOption: Yes, I have!
+  - startTime: 0
+    showTime: 0
+    description: "Of course. Even up in that little room in the stable, how could
+      one miss her beauty?\n\nShe is has the the most most striking of presences.
+      \n\nThe most captivating eyes, the most melodic voice, the noblest of hearts,
+      the-"
+    audioClip: {fileID: 0}
+    nextOption: And you must be Henry!
+  - startTime: 0
+    showTime: 0
+    description: 'Henry! Yes! I''m Henry!
+
+
+      How did you know? Did she-
+
+
+      Did
+      she mention me?!!'
+    audioClip: {fileID: 0}
+    nextOption: She wants you to have this.
+  - startTime: 0
+    showTime: 0
+    description: 'A letter! This is her handwriting!
+
+
+      *Sigh*
+
+
+      Before
+      I open this... Traveller, I ought to confide something to you.'
+    audioClip: {fileID: 0}
+    nextOption: She wants you to have this
+  - startTime: 0
+    showTime: 0
+    description: 'Me and Darlene... we haven''t been doing so well.
+
+      It''s...
+      it''s not her, it''s me. I''ve been avoiding her.
+
+
+      She''s just so...
+      perfect. And me, so... plain.'
+    audioClip: {fileID: 0}
+    nextOption: She wants you to have this
+  - startTime: 0
+    showTime: 0
+    description: 'I''ve tried telling her this, but she''s so nice. She doesn''t
+      want to hurt my feelings.
+
+
+      So I took the liberty of removing myself
+      from her life. For her sake.'
+    audioClip: {fileID: 0}
+    nextOption: She wants you to have this
+  - startTime: 0
+    showTime: 0
+    description: 'I suppose this letter aims to make our parting official.
+
+
+      Traveller,
+      I beg of you. I can''t do this alone. Open this letter with me.'
+    audioClip: {fileID: 0}
+    nextOption: She wants you to have this
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Marital problems
+      stepIndex: 0
+      requireComplete: 0
+      requireTurnedIn: 0
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []

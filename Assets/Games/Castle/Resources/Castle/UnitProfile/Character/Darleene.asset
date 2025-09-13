@@ -142,7 +142,7 @@ MonoBehaviour:
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Darleene
+  characterName: Darlene
   title: 
   factionName: 
   unitTypeName: 
@@ -224,5 +224,8 @@ MonoBehaviour:
         interactionPanelImage: {fileID: 0}
         namePlateImage: {fileID: 0}
         prerequisiteConditions: []
-        quests: []
+        quests:
+        - startQuest: 1
+          endQuest: 0
+          questName: Marital problems
         questGiverProfileNames: []

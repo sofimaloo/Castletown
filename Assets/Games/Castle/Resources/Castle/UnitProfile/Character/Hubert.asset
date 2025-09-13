@@ -236,6 +236,6 @@ MonoBehaviour:
         prerequisiteConditions: []
         quests:
         - startQuest: 0
-          endQuest: 1
+          endQuest: 0
           questName: Tales I
         questGiverProfileNames: []

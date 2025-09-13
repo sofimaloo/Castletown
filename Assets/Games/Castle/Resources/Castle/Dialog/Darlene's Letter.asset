@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: Darlene's Letter
+  m_EditorClassIdentifier: 
+  resourceName: Reading Darlene's letter
+  displayName: Reading Darlene's letter
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 0
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: '"My dearest Henry,
+
+
+      I have never been as good with words
+      as you have. So I took the time to write this.
+
+
+      I don''t doubt that
+      to this very moment, even while you avoid me, you care about me like no one
+      ever has."'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: '"Please, if you have even the slightest bit of trust in my character,
+      believe in what I tell you:
+
+
+      I love you as much as you love me, if not
+      even more.'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'I admire you so much. And I know you feel the same.
+
+
+      So
+      please, come back to me. Let me see your handsome face once more"'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: '...that...
+
+
+      ...that was...
+
+
+      *Sobs*'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: Thank you! Oh, thank you for delivering this letter!
+    audioClip: {fileID: 0}
+    nextOption: You're welcome!
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Marital problems
+      stepIndex: 1
+      requireComplete: 0
+      requireTurnedIn: 0
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []

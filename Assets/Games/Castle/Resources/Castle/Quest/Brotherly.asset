@@ -25,7 +25,21 @@ MonoBehaviour:
     - rid: 8187699419854667780
   - questObjectives:
     - rid: 8187699421880516611
-  prerequisiteConditions: []
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Clothe thyself II
+      stepIndex: 0
+      requireComplete: 1
+      requireTurnedIn: 0
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []
   repeatableQuest: 0
   hasOpeningDialog: 1
   experienceLevel: 1
@@ -54,11 +68,11 @@ MonoBehaviour:
       type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Brotherly Affair
+        overrideDisplayName: Ask Hubert about the town's history
         dialogName: Himbo Knight
     - rid: 8187699421880516611
       type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Brothers
+        overrideDisplayName: Report back to Pubert
         dialogName: 'Brothers '
