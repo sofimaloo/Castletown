@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: New Book
+  m_EditorClassIdentifier: 
+  resourceName: Lisa's book launch
+  displayName: Lisa's book launch
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 0
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: 'Finally it is complete! My magnum opus!
+
+
+      The five-part manuscript
+      of Uniwia''s entire history!'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'I lost so much sleep on research, and it finally payed off!
+
+
+      You,
+      there! You''re not from around here!
+
+      Wanna know the true unbiased history
+      of this place?'
+    audioClip: {fileID: 0}
+    nextOption: Me? Yes!
+  - startTime: 0
+    showTime: 0
+    description: 'Splendid! And I need to show off my work!
+
+
+      Please, let me
+      read part I to you, and I''ll let you have it for free!'
+    audioClip: {fileID: 0}
+    nextOption: What a good deal!
+  prerequisiteConditions: []

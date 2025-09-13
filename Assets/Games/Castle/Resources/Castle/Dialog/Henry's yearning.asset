@@ -63,7 +63,7 @@ MonoBehaviour:
       Before
       I open this... Traveller, I ought to confide something to you.'
     audioClip: {fileID: 0}
-    nextOption: She wants you to have this
+    nextOption: 
   - startTime: 0
     showTime: 0
     description: 'Me and Darlene... we haven''t been doing so well.
@@ -75,7 +75,7 @@ MonoBehaviour:
       She''s just so...
       perfect. And me, so... plain.'
     audioClip: {fileID: 0}
-    nextOption: She wants you to have this
+    nextOption: 
   - startTime: 0
     showTime: 0
     description: 'I''ve tried telling her this, but she''s so nice. She doesn''t
@@ -85,7 +85,7 @@ MonoBehaviour:
       So I took the liberty of removing myself
       from her life. For her sake.'
     audioClip: {fileID: 0}
-    nextOption: She wants you to have this
+    nextOption: 
   - startTime: 0
     showTime: 0
     description: 'I suppose this letter aims to make our parting official.
@@ -94,7 +94,7 @@ MonoBehaviour:
       Traveller,
       I beg of you. I can''t do this alone. Open this letter with me.'
     audioClip: {fileID: 0}
-    nextOption: She wants you to have this
+    nextOption: 
   prerequisiteConditions:
   - requireAny: 0
     reverseMatch: 0

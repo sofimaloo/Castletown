@@ -10,28 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b491a306145b8e4aa064bbcf71f8e01, type: 3}
-  m_Name: Darleene and Henry
+  m_Name: Lisa's collection
   m_EditorClassIdentifier: 
-  resourceName: Marital problems
-  displayName: Marital problems
+  resourceName: Collect them all!
+  displayName: Collect them all!
   icon: {fileID: 0}
   iconBackgroundImage: {fileID: 0}
-  description: 
+  description: 'Buy the Chronicles of Uniwia saga:'
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0
   steps:
   - questObjectives:
-    - rid: 8915054975426756623
-  - questObjectives:
-    - rid: 8915054975426756624
+    - rid: 8915054997006450737
+    - rid: 8915054997006450738
+    - rid: 8915054997006450739
+    - rid: 8915054997006450740
+    - rid: 8915054997006450741
   prerequisiteConditions:
   - requireAny: 0
     reverseMatch: 0
     levelPrerequisites: []
     characterClassPrerequisites: []
     questPrerequisites:
-    - prerequisiteName: Clothe thyself II
+    - prerequisiteName: Lisa's book launch
       stepIndex: 0
       requireComplete: 1
       requireTurnedIn: 1
@@ -42,7 +44,7 @@ MonoBehaviour:
     factionPrerequisites: []
   repeatableQuest: 0
   hasOpeningDialog: 1
-  experienceLevel: 0
+  experienceLevel: 1
   dynamicLevel: 1
   extraLevels: 0
   baseExperienceReward: 0
@@ -64,15 +66,38 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8915054975426756623
-      type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
+    - rid: 8915054997006450737
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Find Henry and talk to him.
-        dialogName: About Darlene
-    - rid: 8915054975426756624
-      type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
+        overrideDisplayName: 
+        itemName: Chronicles of Uniwia I
+        partialMatch: 0
+    - rid: 8915054997006450738
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Read Darlene's letter with Henry.
-        dialogName: Reading Darlene's letter
+        overrideDisplayName: 
+        itemName: Chronicles of Uniwia II
+        partialMatch: 0
+    - rid: 8915054997006450739
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Chronicles of Uniwia III
+        partialMatch: 0
+    - rid: 8915054997006450740
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Chronicles of Uniwia IV
+        partialMatch: 0
+    - rid: 8915054997006450741
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Chronicles of Uniwia V
+        partialMatch: 0

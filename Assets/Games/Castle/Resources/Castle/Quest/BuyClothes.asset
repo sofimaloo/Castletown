@@ -50,7 +50,7 @@ MonoBehaviour:
   repeatableQuest: 0
   hasOpeningDialog: 1
   experienceLevel: 0
-  dynamicLevel: 0
+  dynamicLevel: 1
   extraLevels: 0
   baseExperienceReward: 0
   experienceRewardPerLevel: 0

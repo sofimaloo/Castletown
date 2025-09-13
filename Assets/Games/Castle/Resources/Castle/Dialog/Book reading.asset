@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
+  m_Name: Book reading
+  m_EditorClassIdentifier: 
+  resourceName: Book reading
+  displayName: Book reading
+  icon: {fileID: 0}
+  iconBackgroundImage: {fileID: 0}
+  description: 
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  automatic: 0
+  repeatable: 1
+  audioProfileName: 
+  dialogNodes:
+  - startTime: 0
+    showTime: 0
+    description: 'You should feel honoured to witness a reading from the author herself.
+
+
+      Alright,
+      let''s start!'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: "\"Though Uniwia is a youngling of a town, the tales and legends
+      surrounding it are many. \n\n"
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'Thus, I, the great historian Lisa have taken it upon myself to
+      chronicle fact and fiction,
+
+      so that order may emerge, from the sayings
+      of many.
+
+'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'Accounts state that where Uniwia lies now,
+
+      a few generations
+      ago there existed a small town called TeiAth.
+
+'
+    audioClip: {fileID: 0}
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: "It was home to craftsmen, artists and all sorts of people of science.\n\nIts
+      downfall however, was brewing in the background.\r\"\n"
+    audioClip: {fileID: 0}
+    nextOption: Is that really how it ends?
+  - startTime: 0
+    showTime: 0
+    description: 'Oh, it''s a bit of a cliffhanger, isn''t it?
+
+
+      It''s to make
+      the sequels sell better! So if you want more, make sure to check out "Chronicles
+      of Uniwia II".
+
+
+      Available right now!'
+    audioClip: {fileID: 0}
+    nextOption: 
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Lisa's book launch
+      stepIndex: 0
+      requireComplete: 0
+      requireTurnedIn: 0
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []

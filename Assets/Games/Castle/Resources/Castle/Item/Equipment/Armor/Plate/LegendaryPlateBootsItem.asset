@@ -21,13 +21,13 @@ MonoBehaviour:
   resourceDescriptionProfile: 
   optionalOverride: 0
   stackSize: 0
-  itemQuality: Common
+  itemQuality: Legendary
   randomItemQuality: 0
   dynamicLevel: 0
   freezeDropLevel: 0
-  levelCap: 10
-  itemLevel: 10
-  useLevel: 10
+  levelCap: 5
+  itemLevel: 5
+  useLevel: 5
   currencyName: Gold
   dynamicCurrencyAmount: 0
   pricePerLevel: 0

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b491a306145b8e4aa064bbcf71f8e01, type: 3}
-  m_Name: GetClothes
+  m_Name: Lisa's book launch
   m_EditorClassIdentifier: 
-  resourceName: Clothe thyself
-  displayName: Clothe thyself
+  resourceName: Lisa's book launch
+  displayName: Lisa's book launch
   icon: {fileID: 0}
   iconBackgroundImage: {fileID: 0}
   description: 
@@ -22,8 +22,22 @@ MonoBehaviour:
   optionalOverride: 0
   steps:
   - questObjectives:
-    - rid: 8915054746412253210
-  prerequisiteConditions: []
+    - rid: 8915054997006450700
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Clothe thyself II
+      stepIndex: 0
+      requireComplete: 1
+      requireTurnedIn: 1
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []
   repeatableQuest: 0
   hasOpeningDialog: 1
   experienceLevel: 0
@@ -36,7 +50,8 @@ MonoBehaviour:
   baseCurrencyReward: 10
   currencyRewardPerLevel: 0
   maxItemRewards: 0
-  itemRewardNames: []
+  itemRewardNames:
+  - Chronicles of Uniwia I
   maxFactionRewards: 0
   factionRewards: []
   maxAbilityRewards: 0
@@ -48,9 +63,9 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8915054746412253210
+    - rid: 8915054997006450700
       type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Talk to guard, to end quest
-        dialogName: Clothe thyself
+        overrideDisplayName: Let Lisa read you her book
+        dialogName: Book reading

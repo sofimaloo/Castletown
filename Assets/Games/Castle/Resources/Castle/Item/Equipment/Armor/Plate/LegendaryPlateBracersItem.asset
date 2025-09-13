@@ -25,9 +25,9 @@ MonoBehaviour:
   randomItemQuality: 0
   dynamicLevel: 0
   freezeDropLevel: 0
-  levelCap: 10
-  itemLevel: 10
-  useLevel: 10
+  levelCap: 5
+  itemLevel: 5
+  useLevel: 5
   currencyName: Gold
   dynamicCurrencyAmount: 0
   pricePerLevel: 0

@@ -34,7 +34,7 @@ MonoBehaviour:
     - prerequisiteName: Clothe thyself II
       stepIndex: 0
       requireComplete: 1
-      requireTurnedIn: 0
+      requireTurnedIn: 1
     dialogPrerequisites: []
     visitZonePrerequisites: []
     tradeSkillPrerequisites: []
@@ -43,7 +43,7 @@ MonoBehaviour:
   repeatableQuest: 0
   hasOpeningDialog: 1
   experienceLevel: 1
-  dynamicLevel: 0
+  dynamicLevel: 1
   extraLevels: 0
   baseExperienceReward: 0
   experienceRewardPerLevel: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
       type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Ask Hubert about the town's history
+        overrideDisplayName: Listen to Hubert's storytelling
         dialogName: Himbo Knight
     - rid: 8187699421880516611
       type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}

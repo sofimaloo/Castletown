@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: Pubert
+  m_Name: Lisa
   m_EditorClassIdentifier: 
-  resourceName: Pubert
-  displayName: Pubert
-  icon: {fileID: 21300000, guid: 995e8a165572da84ca469d4e64b98c43, type: 3}
+  resourceName: Lisa
+  displayName: Lisa
+  icon: {fileID: 21300000, guid: 3fe8d957725f36c45892c3b66afed644, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   unitPrefabProps:
     unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
       type: 3}
-    modelPrefab: {fileID: 6307183516646880328, guid: 06fc2eae87c436f4b9cbdab3cb5dc5e5,
+    modelPrefab: {fileID: 6954704190252621995, guid: aee242495df737442a6f4c531e848358,
       type: 3}
     modelProvider:
       rid: -2
@@ -39,8 +39,7 @@ MonoBehaviour:
       castClips: []
       takeDamageClips: []
       actionClips: []
-      idleClip: {fileID: 8395340075712130349, guid: 6397dc4217362a642821d38659e201d8,
-        type: 3}
+      idleClip: {fileID: 0}
       jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
@@ -143,7 +142,7 @@ MonoBehaviour:
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Pubert
+  characterName: Lisa
   title: 
   factionName: 
   unitTypeName: 
@@ -153,7 +152,7 @@ MonoBehaviour:
   spawnDead: 0
   preventAutoDespawn: 0
   defaultToughness: 
-  voiceProfile: Male NPC
+  voiceProfile: Female High
   useInlineVoiceProps: 0
   voiceProps:
     aggro: []
@@ -207,41 +206,33 @@ MonoBehaviour:
   interactionMaxRange: 3
   interactableOptions: []
   inlineInteractableOptions:
-  - rid: 8187699421880516609
-  - rid: 8187699419854667781
-  - rid: 8915054975426756621
+  - rid: 8915054994912968704
+  - rid: 8915054994912968705
+  - rid: 8915054997006450742
+  - rid: 8915054997006450743
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: c23e2e42-03f5-4e08-84c2-9abbd2cd5d19
+  m_UUID: 6e6a2733-a496-481e-828a-5ca979664178
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 8187699419854667781
+    - rid: 8915054994912968704
       type: {class: QuestGiverProps, ns: AnyRPG, asm: Assembly-CSharp}
       data:
-        interactionPanelTitle: Brotherly Affairs
+        interactionPanelTitle: 
         interactionPanelImage: {fileID: 0}
         namePlateImage: {fileID: 0}
         prerequisiteConditions: []
         quests:
         - startQuest: 1
           endQuest: 1
-          questName: Tales I
+          questName: Lisa's book launch
         questGiverProfileNames: []
-    - rid: 8187699421880516609
-      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
-      data:
-        interactionPanelTitle: Prepaprations
-        interactionPanelImage: {fileID: 0}
-        namePlateImage: {fileID: 0}
-        prerequisiteConditions: []
-        dialogNames:
-        - Pubert Yap
-    - rid: 8915054975426756621
+    - rid: 8915054994912968705
       type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         interactionPanelTitle: 
@@ -249,4 +240,39 @@ MonoBehaviour:
         namePlateImage: {fileID: 0}
         prerequisiteConditions: []
         dialogNames:
-        - 'Brothers '
+        - Book reading
+    - rid: 8915054997006450742
+      type: {class: QuestGiverProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        quests:
+        - startQuest: 1
+          endQuest: 1
+          questName: Collect them all!
+        questGiverProfileNames: []
+    - rid: 8915054997006450743
+      type: {class: VendorProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions:
+        - requireAny: 0
+          reverseMatch: 0
+          levelPrerequisites: []
+          characterClassPrerequisites: []
+          questPrerequisites:
+          - prerequisiteName: Collect them all!
+            stepIndex: 0
+            requireComplete: 0
+            requireTurnedIn: 0
+          dialogPrerequisites: []
+          visitZonePrerequisites: []
+          tradeSkillPrerequisites: []
+          abilityPrerequisites: []
+          factionPrerequisites: []
+        vendorCollectionNames:
+        - Books

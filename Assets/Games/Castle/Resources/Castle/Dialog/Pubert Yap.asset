@@ -53,4 +53,18 @@ MonoBehaviour:
       have fun... \n\nI'll be.. here...um... preparing, yes..\n"
     audioClip: {fileID: 0}
     nextOption: alright..
-  prerequisiteConditions: []
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Tales I
+      stepIndex: 0
+      requireComplete: 1
+      requireTurnedIn: 1
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []
