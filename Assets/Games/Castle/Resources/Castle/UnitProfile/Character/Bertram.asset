@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e31818c35d6ab14fbf88410e7e18453, type: 3}
-  m_Name: HumanMaleApronHead1UnitTemplate
+  m_Name: Bertram
   m_EditorClassIdentifier: 
-  resourceName: Human Male Apron Head 1
+  resourceName: Bertram
   displayName: 
-  icon: {fileID: 21300000, guid: deb084bded23ac645ac5ff6ed47a9fae, type: 3}
+  icon: {fileID: 21300000, guid: 6c8c12aff36c7ac4095e549c3ffc4e0c, type: 3}
   iconBackgroundImage: {fileID: 0}
   description: 
   useRegionalDescription: 0
@@ -22,30 +22,31 @@ MonoBehaviour:
   optionalOverride: 0
   automaticPrefabProfile: 0
   prefabProfileName: 
-  useInlinePrefabProps: 1
+  useInlinePrefabProps: 0
   unitPrefabProps:
     unitPrefab: {fileID: 2692339740015506113, guid: ba09f14eb0109ba459f4520b82c3fadc,
       type: 3}
-    modelPrefab: {fileID: 6307183516646880328, guid: 0aaf43820419a9a43b829b167f0a3370,
+    modelPrefab: {fileID: 6307183516646880328, guid: 220ba174532517d4f8447e6fb81a0164,
       type: 3}
     modelProvider:
       rid: -2
     animationProfileName: 
     useInlineAnimationProps: 0
     animationProps:
-      useRootMotion: 0
+      useRootMotion: 1
       suppressAdjustAnimatorSpeed: 0
       attackClips: []
       castClips: []
       takeDamageClips: []
       actionClips: []
-      idleClip: {fileID: 0}
+      idleClip: {fileID: 1989289236423521904, guid: e67ab4ab68817fc49a5e3c2b0c610236,
+        type: 3}
       jumpClip: {fileID: 0}
       fallClip: {fileID: 0}
       landClip: {fileID: 0}
-      walkClip: {fileID: 0}
+      walkClip: {fileID: 7400000, guid: 450ad86e85ecd344f8b69b74a241724d, type: 2}
       runClip: {fileID: 0}
-      walkBackClip: {fileID: 0}
+      walkBackClip: {fileID: 7400000, guid: 9a123cb3e407682488f0caa8de832f34, type: 2}
       runBackClip: {fileID: 0}
       turnLeftClip: {fileID: 0}
       turnRightClip: {fileID: 0}
@@ -142,7 +143,7 @@ MonoBehaviour:
   isPet: 0
   flightCapable: 0
   glideCapable: 0
-  characterName: Human Male Apron Head 1
+  characterName: Bertram
   title: 
   factionName: 
   unitTypeName: 
@@ -187,32 +188,42 @@ MonoBehaviour:
   playOnFootstep: 1
   movementAudioProfileNames:
   - Default Footstep Hits
-  useInlinePatrol: 0
+  useInlinePatrol: 1
   patrolConfig:
-    autoStart: 0
+    autoStart: 1
     destinationList: []
-    useTags: 0
+    useTags: 1
     destinationTagList: []
-    randomDestinations: 0
-    loopDestinations: 1
+    randomDestinations: 1
+    loopDestinations: 0
     despawnOnCompletion: 0
-    maxDestinations: 0
-    maxDistanceFromSpawnPoint: 1
-    destinationPauseTime: 0
-    movementSpeed: 0
+    maxDestinations: 6
+    maxDistanceFromSpawnPoint: 5
+    destinationPauseTime: 15
+    movementSpeed: 1
     savePositionAtDestination: 0
   patrolNames: []
   faceInteractionTarget: 1
   interactionMaxRange: 3
   interactableOptions: []
-  inlineInteractableOptions: []
+  inlineInteractableOptions:
+  - rid: 8187699483686207488
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
   overwriteUnitUUID: 0
-  m_UUID: 7992c4e4-2118-42cc-ab68-127474cdeee6
+  m_UUID: fa0873d5-961a-42ae-bd9c-bb36f21cfe38
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 8187699483686207488
+      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        dialogNames:
+        - Bertram
