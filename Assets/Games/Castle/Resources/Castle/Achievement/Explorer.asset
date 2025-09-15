@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c789e2f200eeb4aa6d9303486389d3, type: 3}
+  m_Name: Explorer
+  m_EditorClassIdentifier: 
+  resourceName: 
+  displayName: 
+  icon: {fileID: 21300000, guid: ead70af276d089543be7a05f49c3bfa7, type: 3}
+  iconBackgroundImage: {fileID: 21300000, guid: 6029d27b2ae57a84ebae1bae23439899,
+    type: 3}
+  description: Complete every quest.
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  steps:
+  - questObjectives:
+    - rid: 8915055038649073691
+  - questObjectives:
+    - rid: 8915055038649073692
+  - questObjectives:
+    - rid: 8915055038649073693
+  - questObjectives:
+    - rid: 8915055038649073694
+  - questObjectives:
+    - rid: 8915055038649073695
+  - questObjectives:
+    - rid: 8915055038649073696
+  prerequisiteConditions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 8915055038649073691
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        questName: Clothe thyself
+    - rid: 8915055038649073692
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        questName: Clothe thyself II
+    - rid: 8915055038649073693
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        questName: Collect them all!
+    - rid: 8915055038649073694
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        questName: Lisa's book launch
+    - rid: 8915055038649073695
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        questName: Marital problems
+    - rid: 8915055038649073696
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        questName: Tales I

@@ -209,11 +209,11 @@ namespace AnyRPG {
             }
             string updateString = string.Empty;
             updateString += "Name: " + playerManager.MyCharacter.CharacterName + "\n";
-            updateString += "Class: " + (playerManager.MyCharacter.CharacterClass == null ? "None" : playerManager.MyCharacter.CharacterClass.DisplayName) + "\n";
-            updateString += "Specialization: " + (playerManager.MyCharacter.ClassSpecialization == null ? "None" : playerManager.MyCharacter.ClassSpecialization.DisplayName) + "\n";
-            updateString += "Faction: " + (playerManager.MyCharacter.Faction == null ? "None" : playerManager.MyCharacter.Faction.DisplayName) + "\n";
-            updateString += "Unit Type: " + (playerManager.MyCharacter.UnitType == null ? "None" : playerManager.MyCharacter.UnitType.DisplayName) + "\n";
-            updateString += "Race: " + (playerManager.MyCharacter.CharacterRace == null ? "None" : playerManager.MyCharacter.CharacterRace.DisplayName) + "\n";
+            //updateString += "Class: " + (playerManager.MyCharacter.CharacterClass == null ? "None" : playerManager.MyCharacter.CharacterClass.DisplayName) + "\n";
+            //updateString += "Specialization: " + (playerManager.MyCharacter.ClassSpecialization == null ? "None" : playerManager.MyCharacter.ClassSpecialization.DisplayName) + "\n";
+            //updateString += "Faction: " + (playerManager.MyCharacter.Faction == null ? "None" : playerManager.MyCharacter.Faction.DisplayName) + "\n";
+            //updateString += "Unit Type: " + (playerManager.MyCharacter.UnitType == null ? "None" : playerManager.MyCharacter.UnitType.DisplayName) + "\n";
+            //updateString += "Race: " + (playerManager.MyCharacter.CharacterRace == null ? "None" : playerManager.MyCharacter.CharacterRace.DisplayName) + "\n";
             updateString += "Level: " + playerManager.MyCharacter.CharacterStats.Level + "\n";
             updateString += "Experience: " + playerManager.MyCharacter.CharacterStats.CurrentXP + " / " + LevelEquations.GetXPNeededForLevel(playerManager.MyCharacter.CharacterStats.Level, systemConfigurationManager) + "\n\n";
 
@@ -234,13 +234,13 @@ namespace AnyRPG {
                 updateString += playerManager.MyCharacter.CharacterStats.PrimaryResource.DisplayName + ": " + playerManager.MyCharacter.CharacterStats.CurrentPrimaryResource + " / " + playerManager.MyCharacter.CharacterStats.MaxPrimaryResource + "\n\n";
             }
 
-            updateString += "Amor: " + playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.Armor].CurrentValue + "\n";
+            updateString += "Armor: " + playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.Armor].CurrentValue + "\n";
             /*
             updateString += "Armor: " + playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.Armor].CurrentValue;
             if (playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.Armor].CurrentValue != playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.Armor].BaseValue) {
                 updateString += " ( " + playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.Armor].BaseValue + " + <color=green>" + playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.Armor].GetAddValue() + "</color> )";
             }
-            */
+            
 
             updateString += "Physical Power: " +
                 (playerManager.MyCharacter.CharacterStats.SecondaryStats[SecondaryStatType.PhysicalDamage].CurrentValue +
@@ -299,7 +299,7 @@ namespace AnyRPG {
             updateString += "\n";
 
             updateString += "Movement Speed: " + Mathf.Clamp(playerManager.MyCharacter.CharacterStats.RunSpeed, 0, playerManager.MaxMovementSpeed).ToString("F2") + " (m/s)\n\n";
-
+            */
             statsDescription.text = updateString;
         }
 

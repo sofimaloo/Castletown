@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c789e2f200eeb4aa6d9303486389d3, type: 3}
+  m_Name: Legend
+  m_EditorClassIdentifier: 
+  resourceName: Legend
+  displayName: Legend
+  icon: {fileID: 21300000, guid: 8cb6c080e3c6f514aa08ef832cbe62a9, type: 3}
+  iconBackgroundImage: {fileID: 0}
+  description: Collect a full set of legendary armor.
+  useRegionalDescription: 0
+  resourceDescriptionProfile: 
+  optionalOverride: 0
+  steps:
+  - questObjectives:
+    - rid: 8915055038649073682
+    - rid: 8915055038649073683
+    - rid: 8915055038649073684
+    - rid: 8915055038649073690
+    - rid: 8915055038649073689
+    - rid: 8915055038649073688
+    - rid: 8915055038649073687
+    - rid: 8915055038649073686
+  prerequisiteConditions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 8915055038649073682
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Armor
+        partialMatch: 0
+    - rid: 8915055038649073683
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Boots
+        partialMatch: 0
+    - rid: 8915055038649073684
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Bracers
+        partialMatch: 0
+    - rid: 8915055038649073686
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Pauldrons
+        partialMatch: 0
+    - rid: 8915055038649073687
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Legs
+        partialMatch: 0
+    - rid: 8915055038649073688
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Helm
+        partialMatch: 0
+    - rid: 8915055038649073689
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Gloves
+        partialMatch: 0
+    - rid: 8915055038649073690
+      type: {class: CollectObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        itemName: Legendary Plate Girdle
+        partialMatch: 0
