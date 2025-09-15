@@ -232,10 +232,10 @@ MonoBehaviour:
           levelPrerequisites: []
           characterClassPrerequisites: []
           questPrerequisites:
-          - prerequisiteName: Clothe thyself
+          - prerequisiteName: Clothe thyself II
             stepIndex: 0
             requireComplete: 0
-            requireTurnedIn: 1
+            requireTurnedIn: 0
           dialogPrerequisites: []
           visitZonePrerequisites: []
           tradeSkillPrerequisites: []

@@ -7,6 +7,55 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1302945110231974835, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635314857517202235, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_text
+      value: 'Stav K.
+
+        Anna K.
+
+        Sofia M.
+
+
+
+        This project
+        would not be possible without AnyRPG.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635314857517202235, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -365
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635314857517202235, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -526.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635314857517202235, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2071990861524653799, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571561673381312785, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_ShowMaskGraphic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146416643745393076, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5684895214070870784, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}
       propertyPath: m_RootOrder
@@ -66,6 +115,66 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CastleGameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727752123669772719, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727752123669772719, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -26.310001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727752123669772719, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 394
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727752123669772719, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347039093853823171, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347039093853823171, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -2769.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347039093853823171, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347039093853823171, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347039093853823171, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347039093853823171, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -461.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6836686244359816741, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_text
+      value: Team Members
+      objectReference: {fileID: 0}
+    - target: {fileID: 8302576189550025753, guid: 940327016906947448ca06fe7bf422fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8448294747759913886, guid: 940327016906947448ca06fe7bf422fb,
         type: 3}

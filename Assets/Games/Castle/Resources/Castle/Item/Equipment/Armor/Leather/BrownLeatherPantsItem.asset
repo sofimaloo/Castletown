@@ -41,16 +41,16 @@ MonoBehaviour:
     equipmentModels: []
   sharedEquipmentModels: Brown Leather Pants
   useArmorModifier: 1
-  useManualArmor: 0
+  useManualArmor: 1
   manualValueIsScale: 0
   armorModifier: 2
   primaryStats:
   - statName: Stamina
     useManualValue: 0
-    manualModifierValue: 0
+    manualModifierValue: 1
   - statName: Agility
     useManualValue: 0
-    manualModifierValue: 0
+    manualModifierValue: 1
   randomSecondaryStats: 0
   secondaryStats: []
   onEquipStatusEffect: 
