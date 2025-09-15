@@ -463,14 +463,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8995f41cb132f3148a9912f89e49421b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leaveLeftOption: 0
   leftPanel: {fileID: 0}
   leftControllers:
   - {fileID: 4434140753479016435}
+  leaveRightOption: 0
   rightPanel: {fileID: 0}
   rightControllers:
   - {fileID: 7085271770821855637}
+  leaveUpOption: 0
   upPanel: {fileID: 0}
   upControllers: []
+  leaveDownOption: 0
   downPanel: {fileID: 0}
   downControllers: []
   acceptController: {fileID: 0}
@@ -1658,13 +1662,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03715bb91f4a7fa47b3d93745fb1b35e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leaveLeftOption: 0
   leftPanel: {fileID: 0}
   leftControllers:
   - {fileID: 7085271770821855637}
+  leaveRightOption: 0
   rightPanel: {fileID: 0}
   rightControllers: []
+  leaveUpOption: 0
   upPanel: {fileID: 0}
   upControllers: []
+  leaveDownOption: 0
   downPanel: {fileID: 0}
   downControllers: []
   acceptController: {fileID: 0}
@@ -1868,6 +1876,10 @@ MonoBehaviour:
   analogYawSpeed: 1
   initialYDegrees: 0
   initialXDegrees: 0
+  rotateTarget: 0
+  ignoreMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3272535556584522714
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,7 +3568,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.0000076293945}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -84.64, y: -7.120001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6010432374106524225
 CanvasRenderer:
@@ -5062,14 +5074,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03715bb91f4a7fa47b3d93745fb1b35e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leaveLeftOption: 0
   leftPanel: {fileID: 0}
   leftControllers:
   - {fileID: 3035092880032057238}
+  leaveRightOption: 0
   rightPanel: {fileID: 0}
   rightControllers:
   - {fileID: 6800969205129178276}
+  leaveUpOption: 0
   upPanel: {fileID: 0}
   upControllers: []
+  leaveDownOption: 0
   downPanel: {fileID: 0}
   downControllers: []
   acceptController: {fileID: 0}
@@ -5467,13 +5483,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03715bb91f4a7fa47b3d93745fb1b35e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leaveLeftOption: 0
   leftPanel: {fileID: 0}
   leftControllers: []
+  leaveRightOption: 0
   rightPanel: {fileID: 0}
   rightControllers:
   - {fileID: 3035092880032057238}
+  leaveUpOption: 0
   upPanel: {fileID: 0}
   upControllers: []
+  leaveDownOption: 0
   downPanel: {fileID: 0}
   downControllers: []
   acceptController: {fileID: 0}
@@ -5811,7 +5831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2314505437689871571
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5832,7 +5852,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -160, y: -90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8148376632412674090
 CanvasRenderer:
