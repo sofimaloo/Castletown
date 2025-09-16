@@ -227,7 +227,7 @@ MonoBehaviour:
         interactionPanelImage: {fileID: 0}
         namePlateImage: {fileID: 0}
         prerequisiteConditions:
-        - requireAny: 0
+        - requireAny: 1
           reverseMatch: 0
           levelPrerequisites: []
           characterClassPrerequisites: []
@@ -236,6 +236,10 @@ MonoBehaviour:
             stepIndex: 0
             requireComplete: 0
             requireTurnedIn: 0
+          - prerequisiteName: Clothe thyself II
+            stepIndex: 0
+            requireComplete: 1
+            requireTurnedIn: 1
           dialogPrerequisites: []
           visitZonePrerequisites: []
           tradeSkillPrerequisites: []
