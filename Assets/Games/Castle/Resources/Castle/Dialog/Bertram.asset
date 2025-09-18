@@ -21,7 +21,7 @@ MonoBehaviour:
   resourceDescriptionProfile: 
   optionalOverride: 0
   automatic: 0
-  repeatable: 0
+  repeatable: 1
   audioProfileName: 
   dialogNodes:
   - startTime: 0

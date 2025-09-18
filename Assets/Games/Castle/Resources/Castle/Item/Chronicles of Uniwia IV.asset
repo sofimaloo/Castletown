@@ -16,7 +16,16 @@ MonoBehaviour:
   displayName: Chronicles of Uniwia IV
   icon: {fileID: 21300000, guid: f6777cc364db1e64398e6de090af5817, type: 3}
   iconBackgroundImage: {fileID: 0}
-  description: STORY OF CHRONICLES 4
+  description: 'Constable Bambis the first was said to have been a childhood friend
+    of the afformationed mage. Upon his return to the city, he saw the mage''s wrath.
+    He pleaded with his old friend, to let the townfolk go, the circumstanced that
+    led them to this point were not their fault. However, the mage could not be reasoned
+    with..
+
+
+    The mage had decided, that those not worthy knowledge, were not
+    worthy of their life. Every man woman or child whose answer did not please him,
+    would face the most utterly brutal death of being burnt alive.'
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0

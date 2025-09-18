@@ -16,7 +16,12 @@ MonoBehaviour:
   displayName: Chronicles of Uniwia II
   icon: {fileID: 21300000, guid: 2398c8608589b80489fa422acae4ea01, type: 3}
   iconBackgroundImage: {fileID: 0}
-  description: STORY OF CHRONICLES 2
+  description: "For the town's charmed had inevitably brought some unwanted folk..
+    and one of them, was a young mage named Gmele. He was a passionate young man,
+    always polite and helpful. \n\nHowever... his passion for the dark arts, ended
+    up being his downfall, as well as the citys' downfall.\nThe more he knew, the
+    more bitter and agitated he became. He came to the conclusion, that those who
+    were not worthy, deserved nothing less than death."
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0

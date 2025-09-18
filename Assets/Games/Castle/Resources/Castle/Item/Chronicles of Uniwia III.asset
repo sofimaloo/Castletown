@@ -16,7 +16,13 @@ MonoBehaviour:
   displayName: Chronicles of Uniwia III
   icon: {fileID: 21300000, guid: 4ed23862488102946b2ddda1d0c169d3, type: 3}
   iconBackgroundImage: {fileID: 0}
-  description: STORY OF CHRONICLES 3
+  description: "His flame soared through the town, and took all of its innocent folk
+    with it. No one was spared, not even children. His heart had completely turned
+    dark, there was no going back. the townsfolk had been deemed unworthy of his
+    knowledge, and so they were to burnt for their illiteracy.\n\nSince no one remembered
+    him for his achiements in science and magic, He had decided he would be remembered
+    for something far worse. His passion for knowledge turned into passion for intellectual
+    purity. \n\nMay the Gods pity those who met his gaze."
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0

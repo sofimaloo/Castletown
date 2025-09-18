@@ -16,7 +16,13 @@ MonoBehaviour:
   displayName: Chronicles of Uniwia V
   icon: {fileID: 21300000, guid: f85a7ece95f377d4ab6e25a9936a9368, type: 3}
   iconBackgroundImage: {fileID: 0}
-  description: STORY OF CHRONICLES 5
+  description: "Constable Bambis had seen enough. His old friend was far gone, and
+    in his place taked by a vengefull spirit. Unsheathing his trusty sword and shield,
+    he dispelled the mage's tricks and ultimately managed to defead the evil within.
+    \n\nHis old friend, turned foe, was now forever banished to the shadow realm,
+    facing his worst fear: being forgotten. \nLegends say part of his spirit still
+    may inhibit this realm, but such accounts are not to be believed. At least not
+    completely..."
   useRegionalDescription: 0
   resourceDescriptionProfile: 
   optionalOverride: 0
