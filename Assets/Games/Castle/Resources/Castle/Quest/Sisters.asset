@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b491a306145b8e4aa064bbcf71f8e01, type: 3}
-  m_Name: Darleene and Henry
+  m_Name: Sisters
   m_EditorClassIdentifier: 
-  resourceName: Marital problems
-  displayName: Marital problems
+  resourceName: Sisters
+  displayName: Sisters
   icon: {fileID: 0}
   iconBackgroundImage: {fileID: 0}
   description: 
@@ -22,34 +22,18 @@ MonoBehaviour:
   optionalOverride: 0
   steps:
   - questObjectives:
-    - rid: 8915054975426756623
-  - questObjectives:
-    - rid: 8915054975426756624
-  prerequisiteConditions:
-  - requireAny: 0
-    reverseMatch: 0
-    levelPrerequisites: []
-    characterClassPrerequisites: []
-    questPrerequisites:
-    - prerequisiteName: Clothe thyself II
-      stepIndex: 0
-      requireComplete: 1
-      requireTurnedIn: 1
-    dialogPrerequisites: []
-    visitZonePrerequisites: []
-    tradeSkillPrerequisites: []
-    abilityPrerequisites: []
-    factionPrerequisites: []
+    - rid: 8187699585351680138
+  prerequisiteConditions: []
   repeatableQuest: 0
   hasOpeningDialog: 1
-  experienceLevel: 0
+  experienceLevel: 1
   dynamicLevel: 1
   extraLevels: 0
   baseExperienceReward: 0
   experienceRewardPerLevel: 0
   automaticCurrencyReward: 0
   rewardCurrencyName: Gold
-  baseCurrencyReward: 5
+  baseCurrencyReward: 10
   currencyRewardPerLevel: 0
   maxItemRewards: 0
   itemRewardNames: []
@@ -64,15 +48,9 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 8915054975426756623
+    - rid: 8187699585351680138
       type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Find Henry and talk to him.
-        dialogName: About Darlene
-    - rid: 8915054975426756624
-      type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
-      data:
-        amount: 1
-        overrideDisplayName: Read Darlene's letter with Henry.
+        overrideDisplayName: Console Darleene
         dialogName: Reading Darlene's letter
