@@ -13814,6 +13814,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Gate
       objectReference: {fileID: 0}
+    - target: {fileID: 4017812385284368712, guid: 5b8050752942e5347bdf47d7d79e53d5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6463727649474030646, guid: 5b8050752942e5347bdf47d7d79e53d5,
         type: 3}
       propertyPath: m_RootOrder
@@ -19137,17 +19142,17 @@ PrefabInstance:
     - target: {fileID: 3288374844399686165, guid: 706ed6701ca71a94d8861d1939739fb6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.729
+      value: -19.8
       objectReference: {fileID: 0}
     - target: {fileID: 3288374844399686165, guid: 706ed6701ca71a94d8861d1939739fb6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.042999864
+      value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 3288374844399686165, guid: 706ed6701ca71a94d8861d1939739fb6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -23.44
+      value: -23.21
       objectReference: {fileID: 0}
     - target: {fileID: 3288374844399686165, guid: 706ed6701ca71a94d8861d1939739fb6,
         type: 3}
@@ -65217,6 +65222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Floor_Stone_2x2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2051537986876948177, guid: 7d2a40e844450a042b8bbcd7724fe13e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8410971319825619639, guid: 7d2a40e844450a042b8bbcd7724fe13e,
         type: 3}

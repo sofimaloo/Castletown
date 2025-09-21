@@ -207,6 +207,7 @@ MonoBehaviour:
   interactableOptions: []
   inlineInteractableOptions:
   - rid: 8187699436567396352
+  - rid: 8915055170136047666
   persistObjectPosition: 0
   saveOnLevelUnload: 0
   saveOnGameSave: 0
@@ -229,3 +230,12 @@ MonoBehaviour:
           endQuest: 0
           questName: Marital problems
         questGiverProfileNames: []
+    - rid: 8915055170136047666
+      type: {class: DialogProps, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        interactionPanelTitle: 
+        interactionPanelImage: {fileID: 0}
+        namePlateImage: {fileID: 0}
+        prerequisiteConditions: []
+        dialogNames:
+        - Mission accomplished

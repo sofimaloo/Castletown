@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd3ecde65e0933d4d8e78e24e9ae3820, type: 3}
-  m_Name: Grateful
+  m_Name: Mission accomplished
   m_EditorClassIdentifier: 
-  resourceName: Grateful
-  displayName: 
+  resourceName: Mission accomplished
+  displayName: Mission accomplished
   icon: {fileID: 0}
   iconBackgroundImage: {fileID: 0}
   description: 
@@ -26,45 +26,45 @@ MonoBehaviour:
   dialogNodes:
   - startTime: 0
     showTime: 0
-    description: "Oh My! I cannot believe you managed to pull this off! \n\nYou are
-      AMAZING!"
+    description: 'You did it?!
+
+
+      And he still wants me?! '
     audioClip: {fileID: 0}
-    nextOption: Tis nothing m'lady..
+    nextOption: Yes and yes!
   - startTime: 0
     showTime: 0
-    description: 'Not only is my dearest sister herself again..
+    description: 'Oh, Henry, my love, I knew you''d come to your senses!
 
 
-      The marriage
-      is back on the table!
-
-
-'
+      I
+      feel the saddness that plagued me evaporate bit by bit from my body.'
     audioClip: {fileID: 0}
     nextOption: 
   - startTime: 0
     showTime: 0
-    description: 'There is no gold in the entire world to reward you for your deeds!
-
-
-      I
-      know this is not enough, but tis all i have right now!
-
-
-      Please! Take
-      it!
-
-'
+    description: Thank you, Traveller, thank you!
     audioClip: {fileID: 0}
-    nextOption: Alright..
+    nextOption: 
+  - startTime: 0
+    showTime: 0
+    description: 'Now... what will I wear to our wedding?
+
+
+      So much to plan...'
+    audioClip: {fileID: 0}
+    nextOption: 
   prerequisiteConditions:
   - requireAny: 0
     reverseMatch: 0
     levelPrerequisites: []
     characterClassPrerequisites: []
-    questPrerequisites: []
-    dialogPrerequisites:
-    - prerequisiteName: Mission accomplished
+    questPrerequisites:
+    - prerequisiteName: Marital problems
+      stepIndex: 0
+      requireComplete: 1
+      requireTurnedIn: 1
+    dialogPrerequisites: []
     visitZonePrerequisites: []
     tradeSkillPrerequisites: []
     abilityPrerequisites: []

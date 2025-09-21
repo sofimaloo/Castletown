@@ -35,6 +35,10 @@ MonoBehaviour:
       stepIndex: 0
       requireComplete: 1
       requireTurnedIn: 1
+    - prerequisiteName: Sisters
+      stepIndex: 0
+      requireComplete: 0
+      requireTurnedIn: 0
     dialogPrerequisites: []
     visitZonePrerequisites: []
     tradeSkillPrerequisites: []
@@ -49,7 +53,7 @@ MonoBehaviour:
   experienceRewardPerLevel: 0
   automaticCurrencyReward: 0
   rewardCurrencyName: Gold
-  baseCurrencyReward: 5
+  baseCurrencyReward: 10
   currencyRewardPerLevel: 0
   maxItemRewards: 0
   itemRewardNames: []

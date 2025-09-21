@@ -49,7 +49,7 @@ MonoBehaviour:
   experienceRewardPerLevel: 0
   automaticCurrencyReward: 0
   rewardCurrencyName: Gold
-  baseCurrencyReward: 5
+  baseCurrencyReward: 10
   currencyRewardPerLevel: 0
   maxItemRewards: 0
   itemRewardNames: []

@@ -34,6 +34,8 @@ MonoBehaviour:
     - rid: 8915055038649073695
   - questObjectives:
     - rid: 8915055038649073696
+  - questObjectives:
+    - rid: 8915055170136047727
   prerequisiteConditions: []
   references:
     version: 2
@@ -74,3 +76,9 @@ MonoBehaviour:
         amount: 1
         overrideDisplayName: 
         questName: Tales I
+    - rid: 8915055170136047727
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: 
+        questName: Sisters

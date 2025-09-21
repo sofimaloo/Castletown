@@ -22,8 +22,25 @@ MonoBehaviour:
   optionalOverride: 0
   steps:
   - questObjectives:
+    - rid: 8915055170136047680
     - rid: 8187699585351680138
-  prerequisiteConditions: []
+  - questObjectives:
+    - rid: 8915055170136047653
+  prerequisiteConditions:
+  - requireAny: 0
+    reverseMatch: 0
+    levelPrerequisites: []
+    characterClassPrerequisites: []
+    questPrerequisites:
+    - prerequisiteName: Clothe thyself II
+      stepIndex: 0
+      requireComplete: 1
+      requireTurnedIn: 1
+    dialogPrerequisites: []
+    visitZonePrerequisites: []
+    tradeSkillPrerequisites: []
+    abilityPrerequisites: []
+    factionPrerequisites: []
   repeatableQuest: 0
   hasOpeningDialog: 1
   experienceLevel: 1
@@ -52,5 +69,17 @@ MonoBehaviour:
       type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
       data:
         amount: 1
-        overrideDisplayName: Console Darleene
-        dialogName: Reading Darlene's letter
+        overrideDisplayName: Make sure that Darleene is well
+        dialogName: Mission accomplished
+    - rid: 8915055170136047653
+      type: {class: DialogObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: Report back to Marleene
+        dialogName: Grateful
+    - rid: 8915055170136047680
+      type: {class: FinishQuestObjective, ns: AnyRPG, asm: Assembly-CSharp}
+      data:
+        amount: 1
+        overrideDisplayName: Resolve Darleene's problem
+        questName: Marital problems
